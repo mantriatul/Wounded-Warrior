@@ -4,6 +4,10 @@ import org.openqa.selenium.By;
 
 public class LoginPages {
 
+    public static By createAccountPAge(String data) {
+        return By.xpath("//input[@placeholder='" + data + "']");
+    }
+
     public static By veteranHelplineNumber = By.xpath("(//a[@title=\"988\"])[1]");
 
     public static By loginPageLogo = By.xpath("//img[@src='/WDX/resource/1680871917000/WWP_Portal_Assets/icon/wwp1_logo_black_1.png']");
@@ -41,6 +45,9 @@ public class LoginPages {
 
     public static By loginInputField(String fieldname){
         return By.xpath("//input[@placeholder='"+fieldname+"']");
+    }
+    public static By errorMessageFields(String data) {
+        return By.xpath("//span[text()='"+ data + " is required']");
     }
 
 }

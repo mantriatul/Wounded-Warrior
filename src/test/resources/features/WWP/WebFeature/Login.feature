@@ -63,3 +63,15 @@ Feature: Verify Login Page Functionality
       |TestData|
       |Testdata1|
 
+
+
+  @Login_TC_05
+  Scenario Outline: Verify that the user is able to Login with valid credentials
+    Given Read the testdata "<TestData>" from excel file
+    When User navigates to the url
+    And User login to the Wounded Warrior
+
+    Examples:
+      |TestData |
+      |Testdata1|
+

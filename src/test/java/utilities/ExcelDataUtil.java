@@ -90,8 +90,8 @@ public class ExcelDataUtil {
         // Initialize class
         // Get Path and Sheet Name from Property File
         final HashMap<String, String> currentRowData = new HashMap<String, String>();
-        init(testDatafilePath, sheetName);
-//        init(testdataNykaafilePath, sheetName);
+//        init(testDatafilePath, sheetName);
+        init(testdataNykaafilePath, sheetName);
 
         Iterator<Row> rowIterator = sheet.iterator();
         try {

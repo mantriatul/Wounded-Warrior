@@ -1,16 +1,18 @@
 package stepDefinitions.WWPWeb;
 
+import com.relevantcodes.extentreports.LogStatus;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import constants.web.Constant;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import pages.web.WwpPages.Homepage;
 import pages.web.WwpPages.LoginPages;
-import utilities.DriverUtil;
-import utilities.ExcelDataUtil;
-import utilities.GlobalUtil;
-import utilities.KeywordUtil;
+import stepDefinitions.RunCukesTest;
+import utilities.*;
 
 import java.awt.*;
 import java.awt.event.InputEvent;
@@ -22,7 +24,7 @@ public class Login extends KeywordUtil {
 
     @Given("Read the testdata {string} from excel file")
     public void readTheTestdataFromExcelFile(String arg1) {
-        dataMap = ExcelDataUtil.getTestDataWithTestCaseID("WelMart", arg1);
+        dataMap = ExcelDataUtil.getTestDataWithTestCaseID("Nykaa", arg1);
 
     }
 
@@ -31,7 +33,7 @@ public class Login extends KeywordUtil {
 
         GlobalUtil.setDriver(DriverUtil.invokeLocalBrowserWeb(Constant.ENVIRONMENT, Constant.BROWSER));
         KeywordUtil.navigateToUrl(dataMap.get("URL"));
-
+//        KeywordUtil.navigateToUrl("https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US");
     }
 
     @Then("Logo is visible")
@@ -98,5 +100,139 @@ public class Login extends KeywordUtil {
         Thread.sleep(6000);
 
 
+    }
+
+
+    @And("User click on create account")
+    public void CreateAccount() throws InterruptedException,AWTException {
+        click(LoginPages.createAccountLink,"click on create account");
+        Thread.sleep(2000);
+        isWebElementVisible(LoginPages.createAccountPageHeading,"create account page");
+        String text= getElementText(LoginPages.createAccountPageHeading);
+        System.out.print(text);
+        Assert.assertEquals(text,"Create Your Account");
+    }
+
+    @When("user enter {string} as {string}")
+    public void user_enter_as(String field, String data) {
+
+        inputText(LoginPages.createAccountPAge(field), data, "Enters the " + data + " in the " + field);
+
+    }
+
+    @And("Verify create account fields")
+    public void CreateAccountFields() throws InterruptedException,AWTException {
+
+        isWebElementVisible(LoginPages.firstNameUnderCreateAccount,"First Name field");
+        isWebElementVisible(LoginPages.lastNameUnderCreateAccount,"Last Name field");
+        isWebElementVisible(LoginPages.emailUnderCreateAccount,"Email field");
+        isWebElementVisible(LoginPages.continueButtonUnderCreateAccount,"Continue button");
+
+    }
+
+    @And("User clicks on continue button")
+    public void click_on_continue_button() {
+
+        click(LoginPages.continueButtonUnderCreateAccount,"click on continue button");
+    }
+
+    @Then("verify {string} is required")
+    public void click_on_continue_button(String data) {
+
+        String text = getText(LoginPages.errorMessageFields(data));
+        Assert.assertEquals(text,data +" is required");
+        RunCukesTest.logger.log(LogStatus.PASS, HTMLReportUtil.passStringGreenColor(data + " is required"));
+
+    }
+
+    @And("user enters {string} as {string}")
+    public void enter_data_in_login_input_field(String fieldname,String data) throws InterruptedException {
+        inputText(LoginPages.loginInputField(fieldname),data,data+"in "+fieldname);
+        Thread.sleep(3000);
+    }
+
+    @Then("user can view the default view")
+    public void user_can_view_default_view_on_forYou() throws InterruptedException {
+        Thread.sleep(3000);
+        Assert.assertTrue(isWebElementsVisible(Homepage.welcomeTextOnForYou,"welcome text"));
+
+    }
+
+    @And("verify homepage header menu are clickable")
+    public void Header_link_is_clickable() throws InterruptedException {
+        Thread.sleep(3000);
+        WebDriverWait wt=new WebDriverWait(GlobalUtil.getDriver(), 10);
+        try {
+            wt.until(ExpectedConditions.elementToBeClickable(Homepage.homepageHeaderLink("For You")));
+            System.out.println("For You  to be clickable");
+            wt.until(ExpectedConditions.elementToBeClickable(Homepage.homepageHeaderLink("Browse All")));
+            System.out.println(" Browse All element to be clickable");
+            wt.until(ExpectedConditions.elementToBeClickable(Homepage.homepageHeaderLink("People")));
+            System.out.println("People element to be clickable");
+            wt.until(ExpectedConditions.elementToBeClickable(Homepage.homepageHeaderLink("Groups")));
+            System.out.println(" groups element to be clickable");
+            wt.until(ExpectedConditions.elementToBeClickable(Homepage.homepageHeaderLink("Notifications")));
+            System.out.println(" notifications element to be clickable");
+            wt.until(ExpectedConditions.elementToBeClickable(Homepage.homepageHeaderLink("Support")));
+            System.out.println(" support element to be clickable");
+            wt.until(ExpectedConditions.elementToBeClickable(Homepage.homepageHeaderLink("Messages")));
+            System.out.println(" messages element to be clickable");
+            wt.until(ExpectedConditions.elementToBeClickable(Homepage.crisisLine));
+            System.out.println("crisis line to be clickable");
+            wt.until(ExpectedConditions.elementToBeClickable(Homepage.userProfileIcon));
+            System.out.println("user profile icon to be clickable");
+        }
+        catch (Exception e){
+            System.out.println("element not clickable");
+        }
+
+        RunCukesTest.logger.log(LogStatus.PASS, HTMLReportUtil.passStringGreenColor(" homepage header elements are clickable"));
+    }
+
+    @And("verify homepage banner is visible")
+    public void homepage_banner_is_visible()
+    {
+        Assert.assertTrue(isWebElementsVisible(Homepage.bannerImage,"homepage banner "));
+
+    }
+
+    @And("verify filters are clickable on For You")
+    public void verify_For_You_Page_filters_are_clickable()
+    {
+        WebDriverWait wt=new WebDriverWait(GlobalUtil.getDriver(), 10);
+        try {
+            wt.until(ExpectedConditions.elementToBeClickable(Homepage.forYouFilters("All")));
+            System.out.println("All  to be clickable");
+            wt.until(ExpectedConditions.elementToBeClickable(Homepage.forYouFilters("Near Me")));
+            System.out.println("Near Me");
+            wt.until(ExpectedConditions.elementToBeClickable(Homepage.forYouFilters("Virtual")));
+            System.out.println("Virtual");
+
+        }
+        catch (Exception e){
+            System.out.println("element not clickable");
+        }
+        RunCukesTest.logger.log(LogStatus.PASS, HTMLReportUtil.passStringGreenColor("For You filters are clickable"));
+    }
+
+    @And("verify content on Homepage Banner with username {string}")
+    public void content_verify_on_homepage_banner(String username) throws InterruptedException
+    {
+        Thread.sleep(10000);
+        String banner_title = getText(Homepage.homepageBannerTitle);
+        System.out.println(banner_title);
+        Assert.assertEquals(banner_title,"Welcome, "+username);
+        String bannersubtitle = getText(Homepage.homepageBannerSubTitle);
+        Assert.assertEquals(bannersubtitle,"Events, Service Offerings & Community Partnerships For You");
+        RunCukesTest.logger.log(LogStatus.PASS, HTMLReportUtil.passStringGreenColor("homepage content is visible"));
+    }
+
+    @And("User login to the Wounded Warrior")
+    public void  Login()
+    {
+        inputText(LoginPages.emailInput,dataMap.get("Username") ,"Enter Username /email");
+        inputText(LoginPages.passwordInput,dataMap.get("Password") ,"Enter Password");
+        click(LoginPages.loginButton,"Click login button");
+        Assert.assertTrue(isWebElementVisible(Homepage.bannerImage,"Wounded Warrior Project page"));
     }
 }
