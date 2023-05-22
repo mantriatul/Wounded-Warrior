@@ -21,7 +21,7 @@ import static utilities.JsonConversion.cs;
 
 @CucumberOptions(features = "classpath:features", plugin = {"pretty", "html:target/cucumber-html-report.html",
         "json:target/cucumber.json"}, tags =
-        "@IOS", monochrome = true, dryRun = false)
+        "@Login_TC_01", monochrome = true, dryRun = false)
 
 public class RunCukesTest extends AbstractTestNGCucumberTests {
 
