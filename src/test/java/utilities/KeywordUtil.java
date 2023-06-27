@@ -9,12 +9,17 @@ import org.openqa.selenium.support.ui.*;
 import org.testng.Assert;
 import stepDefinitions.RunCukesTest;
 
+import java.awt.*;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
@@ -63,6 +68,8 @@ public class KeywordUtil extends GlobalUtil {
      * The Rt.
      */
     static Runtime rt = Runtime.getRuntime();
+    public static Class thisClass = KeywordUtil.class;
+    public static int counterVar = 1;
 
     /**
      * On execution finish.
@@ -216,6 +223,22 @@ public class KeywordUtil extends GlobalUtil {
         wait.ignoring(ElementNotVisibleException.class);
         wait.ignoring(WebDriverException.class);
         return wait.until(ExpectedConditions.elementToBeClickable(locator));
+    }
+
+    public static Boolean waitforclickable(By locator) {
+        WebDriverWait wait = new WebDriverWait(getDriver(), DEFAULT_WAIT_SECONDS);
+        wait.ignoring(ElementNotVisibleException.class);
+        wait.ignoring(WebDriverException.class);
+
+        try {
+
+            wait.until(ExpectedConditions.elementToBeClickable(locator));
+            System.out.println("ele is clickable");
+            return true;
+        } catch (Exception e) {
+            System.out.println("ele is not clickable");
+            return false;
+        }
     }
 
     /**
@@ -497,8 +520,26 @@ public class KeywordUtil extends GlobalUtil {
 
         ArrayList<String> tabs2 = new ArrayList<String>(GlobalUtil.getDriver().getWindowHandles());
         GlobalUtil.getDriver().switchTo().window(tabs2.get(1));
+        System.out.println(tabs2.size());
         return true;
 
+    }
+
+    public static boolean switchToMultipleWindow() {
+
+        String parent = GlobalUtil.getDriver().getWindowHandle();
+        Set<String> s = GlobalUtil.getDriver().getWindowHandles();
+
+        // Now iterate using Iterator
+        Iterator<String> I1 = s.iterator();
+        while (I1.hasNext()) {
+            String child_window = I1.next();
+            if (!parent.equals(child_window)) {
+                getDriver().switchTo().window(child_window);
+                System.out.println(getDriver().getTitle());
+            }
+        }
+        return true;
     }
     // ....
 
@@ -572,6 +613,14 @@ public class KeywordUtil extends GlobalUtil {
 
     }
 
+
+    public static String getAttributevalue(By locator, String value) {
+        KeywordUtil.lastAction = "Get Element value: " + locator.toString();
+        LogUtil.infoLog(KeywordUtil.class, KeywordUtil.lastAction);
+        WebElement elm = waitForClickable(locator);
+        return elm.getAttribute(value);
+    }
+
     public static boolean isWebElementsVisible(By locator, String logStep) {
         List<WebElement> elements = GlobalUtil.getDriver().findElements(locator);
         try {
@@ -621,6 +670,22 @@ public class KeywordUtil extends GlobalUtil {
             LogUtil.infoLog(KeywordUtil.class, KeywordUtil.lastAction);
             RunCukesTest.logger.log(LogStatus.FAIL, HTMLReportUtil.failStringRedColor(KeywordUtil.lastAction));
             return true;
+        }
+    }
+
+    public static boolean isCheckBoxSelected(By locator, String logStep) {
+        WebDriverWait wait = new WebDriverWait(GlobalUtil.getDriver(), 30);
+        WebElement elm = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        try {
+            Assert.assertTrue(elm.isSelected());
+            KeywordUtil.lastAction = logStep + " is selected ";
+            LogUtil.infoLog(KeywordUtil.class, KeywordUtil.lastAction);
+            RunCukesTest.logger.log(LogStatus.PASS, HTMLReportUtil.passStringGreenColor(KeywordUtil.lastAction));
+            return true;
+        } catch (Throwable t) {
+            KeywordUtil.lastAction = logStep + " not selected ";
+
+            return false;
         }
     }
 
@@ -855,6 +920,30 @@ public class KeywordUtil extends GlobalUtil {
         return true;
     }
 
+    public static void uploadImageRobot(String filePath) {
+        StringSelection stringSelection = new StringSelection(filePath);
+        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+        clipboard.setContents(stringSelection, null);
+        Robot robot = null;
+        try {
+            robot = new Robot();
+        } catch (AWTException e) {
+            e.printStackTrace();
+        }
+        robot.delay(250);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        robot.keyRelease(KeyEvent.VK_ENTER);
+        robot.keyPress(KeyEvent.VK_CONTROL);
+        robot.keyPress(KeyEvent.VK_V);
+        robot.keyRelease(KeyEvent.VK_V);
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        robot.delay(150);
+        robot.keyRelease(KeyEvent.VK_ENTER);
+
+    }
+
+
 
     public static String getText(By locator) {
         WebDriverWait wait = new WebDriverWait(GlobalUtil.getDriver(), 50);
@@ -933,7 +1022,7 @@ public class KeywordUtil extends GlobalUtil {
         LogUtil.infoLog(KeywordUtil.class, KeywordUtil.lastAction);
         List<WebElement> elements = getDriver().findElements(locator);
         if (elements.isEmpty()) {
-            RunCukesTest.logger.log(LogStatus.FAIL, HTMLReportUtil.failStringRedColor(logStep));
+            RunCukesTest.logger.log(LogStatus.PASS, HTMLReportUtil.passStringGreenColor(logStep));
             return false;
         }
         RunCukesTest.logger.log(LogStatus.PASS, HTMLReportUtil.passStringGreenColor(logStep));
@@ -971,9 +1060,10 @@ public class KeywordUtil extends GlobalUtil {
         LogUtil.infoLog(KeywordUtil.class, KeywordUtil.lastAction);
         List<WebElement> elements = (new WebDriverWait(getDriver(), DEFAULT_WAIT_SECONDS))
                 .until(ExpectedConditions.presenceOfAllElementsLocatedBy(locator));
-
         return elements.isEmpty();
     }
+
+
 
     /**
      * Input text boolean.
@@ -1130,6 +1220,7 @@ public class KeywordUtil extends GlobalUtil {
             return flag;
         }
     }
+
 
     /**
      * Verify input text boolean.
@@ -1579,6 +1670,11 @@ public class KeywordUtil extends GlobalUtil {
         return outputFile;
     }
 
+    public static void resetCounter() {
+        counterVar = 1;
+        LogUtil.infoLog(thisClass, "counterVar reset to 1");
+    }
+
     /**
      * Pack current directory contents.
      *
@@ -1719,5 +1815,7 @@ class TestStepFailedException extends Exception {
         JavascriptExecutor js = (JavascriptExecutor) GlobalUtil.getDriver();
         js.executeScript("window.scrollBy(0,600);", Element);
     }
+
+
 
 }

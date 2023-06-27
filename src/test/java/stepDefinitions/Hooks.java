@@ -5,9 +5,12 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.apache.commons.compress.utils.IOUtils;
+import testlink.api.java.client.TestLinkAPIResults;
 import utilities.*;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.Base64;
 
@@ -66,10 +69,25 @@ public class Hooks {
 
     @Before("@Web")
     public void beforeMethodAmazon(Scenario scenario) {
-        if (scenario.getName().contains("_"))
-            testCaseDescription = scenario.getName().split("_")[1].trim();
-        else
-            testCaseDescription = scenario.getName();
+//        if (scenario.getName().contains("_"))
+//            testCaseDescription = scenario.getName().split("_")[1].trim();
+//        else
+//            testCaseDescription = scenario.getName();
+//
+//        RunCukesTest.logger = RunCukesTest.extent.startTest(testCaseDescription);
+//        RunCukesTest.tagName = scenario.getSourceTagNames().toString().replace("[@", "").replace("]", "").trim();
+//
+//        LogUtil.infoLog(getClass(),
+//                "\n+----------------------------------------------------------------------------------------------------------------------------+");
+//        LogUtil.infoLog(getClass(), "Test Started: " + scenario.getName());
+//        LogUtil.infoLog(Hooks.class,
+//                "Test is executed in Environment: " + GlobalUtil.getCommonSettings().getExecutionEnv());
+//        LogUtil.infoLog(Hooks.class, "Test is started with browser: " + GlobalUtil.getCommonSettings().getBrowser());
+//
+//        if (scenario.getName().contains("_"))
+//            testCaseDescription = scenario.getName().split("_")[1].trim();
+//        else
+        testCaseDescription = scenario.getName();
 
         RunCukesTest.logger = RunCukesTest.extent.startTest(testCaseDescription);
         RunCukesTest.tagName = scenario.getSourceTagNames().toString().replace("[@", "").replace("]", "").trim();
@@ -80,6 +98,9 @@ public class Hooks {
         LogUtil.infoLog(Hooks.class,
                 "Test is executed in Environment: " + GlobalUtil.getCommonSettings().getExecutionEnv());
         LogUtil.infoLog(Hooks.class, "Test is started with browser: " + GlobalUtil.getCommonSettings().getBrowser());
+
+        GlobalUtil.setDriver(DriverUtil.getBrowser(GlobalUtil.getCommonSettings().getExecutionEnv(),
+                GlobalUtil.getCommonSettings().getBrowser()));
     }
 
     @After("@Android")

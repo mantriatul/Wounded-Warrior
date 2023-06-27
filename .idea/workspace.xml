@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b017add6-eb3f-4a73-b4a9-9bb351454f13" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Account_management_TC09, @account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Account_management_TC09, @account1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @BrowseAll_tc_12, @Browser_All.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @EventTc_02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @EventTc_03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @EventTc_04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @EventTc_05, @Event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @EventTc_05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @EventTc_06, @Event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @EventTc_07_09, @Event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @EventTc_08, @Event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @EventTc_41, @Event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_TC_04, @Group1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_TC_06, @Group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_TC_06, @Group1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_TC_08, @Group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_TC_09_10, @Group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_TC_14, @Group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_Tc_11, @Group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_Tc_11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_Tc_12_13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_Tc_15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_Tc_20.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_Tc_21.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_Tc_22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_Tc_22_24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_Tc_23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_Tc_25.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_Tc_26, @Group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Group_Tc_26.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Messages_06, @messages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @People_TC_19, @People.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-error-2023-05-23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-error-2023-06-02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-error-2023-06-05.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-error-2023-06-09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-error-2023-06-12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-error-2023-06-13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info-2023-05-22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info-2023-05-23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info-2023-05-24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info-2023-05-26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info-2023-05-29.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info-2023-06-02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info-2023-06-05.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info-2023-06-06.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info-2023-06-07.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info-2023-06-08.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info-2023-06-09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info-2023-06-12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info-2023-06-13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info-2023-06-14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info-2023-06-15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info-2023-06-19.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Image/Skype_Picture_2023_04_20T10_20_51_646Z.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Image/travel.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/web/Wwp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/WWPWeb/AccountManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/WWPWeb/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/WWPWeb/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/WWPWeb/Foryou.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/WWPWeb/Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/WWPWeb/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/WWPWeb/Rc_supp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/WWPWeb/messages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/WWP/WebFeature/AccountManagement.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/WWP/WebFeature/Article.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/WWP/WebFeature/Event.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/WWP/WebFeature/ForgotPassword.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/WWP/WebFeature/Groups.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/WWP/WebFeature/People.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/WWP/WebFeature/Rc&amp;Supp.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/WWP/WebFeature/messages.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReports/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionReports/HTMLReports/extentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/IOS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/NykaaMobile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @CreateAccount_Tc_01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @CreateAccount_Tc_02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @ForYou_Tc01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @ForYou_Tc02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @ForYou_Tc03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @ForYou_Tc04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Login_TC_01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Login_TC_02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Login_TC_03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Login_TC_04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Login_TC_05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web, @Login_TC_07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/Web.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/WelMartAndroid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/WelMartWeb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/HTMLReportsBackup/null.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/ExecutionReports/Logs/logfile-info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/web/WwpPages/Homepage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/web/WwpPages/LoginPages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/RunCukesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/RunCukesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/WWPWeb/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/WWPWeb/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DriverUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ExcelDataUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelDataUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/KeywordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/KeywordUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ExcelFiles/AutomationControlSheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ExcelFiles/AutomationControlSheet.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/WWP/WebFeature/ForYouPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/WWP/WebFeature/ForYouPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/WWP/WebFeature/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/WWP/WebFeature/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/WWP/WebFeature/createAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/WWP/WebFeature/createAccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testData/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testData/TestData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testData/TestDataNykaa.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testData/TestDataNykaa.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CsvFiles/ArtistGrowthUsers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CsvFiles/ArtistGrowthUsers.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ExcelFiles/AutomationControlSheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExcelFiles/AutomationControlSheet.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/WWP/WebFeature/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/WWP/WebFeature/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/web/WwpPages/LoginPages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/RunCukesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/RunCukesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/WWPWeb/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/WWPWeb/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testData/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testData/TestData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testData/TestDataNykaa.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testData/TestDataNykaa.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/DriverUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/DriverUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ExcelDataUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ExcelDataUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/KeywordUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/KeywordUtil$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/KeywordUtil$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/KeywordUtil$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/KeywordUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/KeywordUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestStepFailedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestStepFailedException.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QBUbSAY7f3jDWHBP05GEHDirQ0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Tx_WWP (1)/Tx_WWP&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\src\test\resources\features\WWP\WebFeature" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.RunCukesTest">
+    <configuration name="RunCukesTest" type="TestNG" nameIsGenerated="true">
+      <module name="TXAutomateDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepDefinitions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="stepDefinitions.RunCukesTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCukesTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TXAutomateDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepDefinitions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="stepDefinitions.RunCukesTest1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.RunCukesTest1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b017add6-eb3f-4a73-b4a9-9bb351454f13" name="Changes" comment="" />
+      <created>1684826542893</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684826542893</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

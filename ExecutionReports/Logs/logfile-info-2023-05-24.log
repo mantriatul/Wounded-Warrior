@@ -1,0 +1,40 @@
+[INFO ] 2023-05-24 14:49:56.378 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-05-24 14:49:56.562 [main] RunCukesTest - CHROME
+[INFO ] 2023-05-24 14:49:56.562 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-24 14:49:56.563 [main] RunCukesTest -  Suite started at Wed May 24 14:49:56 IST 2023
+[INFO ] 2023-05-24 14:49:56.565 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-05-24 14:49:56.569 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-05-24 14:49:56.570 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-05-24 14:49:56.571 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-24 14:49:58.258 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-24 14:49:58.259 [main] Hooks - Test Started: Verify 1/2/3 instructions and suggested connections should  visible when the user has 3 or fewer existing connections
+[INFO ] 2023-05-24 14:49:58.259 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-24 14:49:58.259 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-24 14:50:48.743 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-24 14:50:53.277 [main] KeywordUtil - Login
+[INFO ] 2023-05-24 14:50:53.284 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-05-24 14:50:53.752 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-05-24 14:50:54.139 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-05-24 14:51:02.263 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-05-24 14:51:02.475 [main] KeywordUtil - Click : By.xpath: //div[@class='links-container']//a[@title='People']
+[INFO ] 2023-05-24 14:51:11.721 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='banner-title']
+[INFO ] 2023-05-24 14:51:11.944 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='banner-subtitle']
+[INFO ] 2023-05-24 14:51:12.114 [main] KeywordUtil - Get Element text: By.xpath: //c-wwp-people-my-connections//div[@class='title']
+[INFO ] 2023-05-24 14:51:12.524 [main] KeywordUtil - Find is visible 
+[INFO ] 2023-05-24 14:51:12.617 [main] KeywordUtil - connect is visible 
+[INFO ] 2023-05-24 14:51:12.707 [main] KeywordUtil - Chat is visible 
+[INFO ] 2023-05-24 14:51:12.708 [main] KeywordUtil - Get List of Elements: By.xpath: //c-wwp-people-suggested//div[@class='wwp-theme ct-card person-card']
+[INFO ] 2023-05-24 14:51:13.241 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-05-24 14:51:15.472 [main] RunCukesTest -  suite finished at Wed May 24 14:51:15 IST 2023
+[INFO ] 2023-05-24 14:51:15.473 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-24 14:51:20.660 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-05-24 14:51:20.663 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-05-24 14:51:20.665 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-05-24 14:51:20.908 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @People_TC_03.html

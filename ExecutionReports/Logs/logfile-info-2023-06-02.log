@@ -1,0 +1,124 @@
+[INFO ] 2023-06-02 15:58:50.137 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-02 15:58:50.289 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-02 15:58:50.290 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-02 15:58:50.291 [main] RunCukesTest -  Suite started at Fri Jun 02 15:58:50 IST 2023
+[INFO ] 2023-06-02 15:58:50.291 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-02 15:58:50.294 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-02 15:58:50.295 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-02 15:58:50.295 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-02 15:58:52.289 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-02 15:58:52.290 [main] Hooks - Test Started: Verify Browse All Content on Page
+[INFO ] 2023-06-02 15:58:52.291 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-02 15:58:52.291 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-02 15:59:48.677 [main] KeywordUtil - Navigate to: null
+[INFO ] 2023-06-02 15:59:49.005 [main] KeywordUtil - Input Text: null - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-02 15:59:51.576 [main] RunCukesTest -  suite finished at Fri Jun 02 15:59:51 IST 2023
+[INFO ] 2023-06-02 15:59:51.577 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-02 15:59:52.579 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-02 15:59:52.580 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-02 15:59:52.581 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-02 15:59:52.692 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @BrowseAll_tc_01, @Browser_All.html
+[INFO ] 2023-06-02 16:00:53.552 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-02 16:00:53.718 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-02 16:00:53.718 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-02 16:00:53.719 [main] RunCukesTest -  Suite started at Fri Jun 02 16:00:53 IST 2023
+[INFO ] 2023-06-02 16:00:53.720 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-02 16:00:53.730 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-02 16:00:53.731 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-02 16:00:53.732 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-02 16:00:56.070 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-02 16:00:56.070 [main] Hooks - Test Started: Verify Browse All Content on Page
+[INFO ] 2023-06-02 16:00:56.071 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-02 16:00:56.071 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-02 16:01:02.797 [main] KeywordUtil - Navigate to: null
+[INFO ] 2023-06-02 16:01:02.806 [main] KeywordUtil - Input Text: null - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-02 16:01:03.227 [main] RunCukesTest -  suite finished at Fri Jun 02 16:01:03 IST 2023
+[INFO ] 2023-06-02 16:01:03.227 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-02 16:01:03.994 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-02 16:01:03.995 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-02 16:01:03.996 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-02 16:01:04.071 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @BrowseAll_tc_01, @Browser_All.html
+[INFO ] 2023-06-02 16:03:10.408 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-02 16:03:10.565 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-02 16:03:10.565 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-02 16:03:10.566 [main] RunCukesTest -  Suite started at Fri Jun 02 16:03:10 IST 2023
+[INFO ] 2023-06-02 16:03:10.566 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-02 16:03:10.569 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-02 16:03:10.570 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-02 16:03:10.570 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-02 16:03:12.332 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-02 16:03:12.332 [main] Hooks - Test Started: Verify Browse All Content on Page
+[INFO ] 2023-06-02 16:03:12.333 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-02 16:03:12.333 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-02 16:03:15.418 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-02 16:03:16.112 [main] KeywordUtil - Navigate to: null
+[INFO ] 2023-06-02 16:03:16.134 [main] KeywordUtil - Input Text: null - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-02 16:03:46.881 [main] HTMLReportUtil - ExecutionReports\FailedScreenshots\ScreenShot_1685702026616.png
+[INFO ] 2023-06-02 16:03:50.818 [main] RunCukesTest -  suite finished at Fri Jun 02 16:03:50 IST 2023
+[INFO ] 2023-06-02 16:03:50.818 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-02 16:03:51.826 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-02 16:03:51.827 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-02 16:03:51.830 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-02 16:03:51.940 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @BrowseAll_tc_01, @Browser_All.html
+[INFO ] 2023-06-02 16:05:11.268 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-02 16:05:11.431 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-02 16:05:11.432 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-02 16:05:11.433 [main] RunCukesTest -  Suite started at Fri Jun 02 16:05:11 IST 2023
+[INFO ] 2023-06-02 16:05:11.434 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-02 16:05:11.436 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-02 16:05:11.437 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-02 16:05:11.437 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-02 16:05:13.145 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-02 16:05:13.145 [main] Hooks - Test Started: Verify Browse All Content on Page
+[INFO ] 2023-06-02 16:05:13.146 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-02 16:05:13.146 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-02 16:05:16.706 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-02 16:05:17.955 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-02 16:05:23.520 [main] KeywordUtil - Login
+[INFO ] 2023-06-02 16:05:23.531 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-02 16:05:24.198 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-02 16:05:25.017 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-02 16:05:32.287 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-02 16:05:38.509 [main] KeywordUtil - Click : By.xpath: //div[@class='links-container']//a[@title="Browse All"]
+[INFO ] 2023-06-02 16:05:53.792 [main] KeywordUtil - Check Element present: By.xpath: //div[@class='banner-container']
+[INFO ] 2023-06-02 16:05:54.243 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='banner-title']
+[INFO ] 2023-06-02 16:05:56.677 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='banner-subtitle']
+[INFO ] 2023-06-02 16:05:56.818 [main] KeywordUtil - Check Element present: By.xpath: //input[@placeholder='Search by name...']
+[INFO ] 2023-06-02 16:05:56.859 [main] KeywordUtil - Check Element present: By.xpath: //div[contains(text(),'Featured')]
+[INFO ] 2023-06-02 16:05:56.896 [main] KeywordUtil - Check Element present: By.xpath: //div[@class='interest-header']
+[INFO ] 2023-06-02 16:05:56.930 [main] KeywordUtil - Check Element present: By.xpath: //button[text()='View All']
+[INFO ] 2023-06-02 16:05:56.969 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-02 16:05:58.258 [main] RunCukesTest -  suite finished at Fri Jun 02 16:05:58 IST 2023
+[INFO ] 2023-06-02 16:05:58.259 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-02 16:05:59.685 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-02 16:05:59.686 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-02 16:05:59.688 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-02 16:06:00.164 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @BrowseAll_tc_01, @Browser_All.html

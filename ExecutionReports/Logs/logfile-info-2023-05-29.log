@@ -1,0 +1,456 @@
+[INFO ] 2023-05-29 15:35:42.565 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-05-29 15:35:42.732 [main] RunCukesTest - CHROME
+[INFO ] 2023-05-29 15:35:42.733 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 15:35:42.734 [main] RunCukesTest -  Suite started at Mon May 29 15:35:42 IST 2023
+[INFO ] 2023-05-29 15:35:42.735 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-05-29 15:35:42.737 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-05-29 15:35:42.745 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-05-29 15:35:42.746 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 15:35:44.342 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 15:35:44.342 [main] Hooks - Test Started: Verify the Create Account Link on the Login Page of WDX
+[INFO ] 2023-05-29 15:35:44.343 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 15:35:44.344 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 15:36:33.958 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 15:36:39.895 [main] KeywordUtil - Login
+[INFO ] 2023-05-29 15:36:40.291 [main] KeywordUtil - Click : By.xpath: //span[text()='Create Account']
+[INFO ] 2023-05-29 15:36:42.786 [main] KeywordUtil - create account page is visible 
+[INFO ] 2023-05-29 15:36:42.787 [main] KeywordUtil - Get Element text: By.xpath: //div[text()='Create Your Account']
+[INFO ] 2023-05-29 15:36:42.973 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-05-29 15:36:46.675 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 15:36:46.676 [main] Hooks - Test Started: Verify Create Account fields for Warrior, FSM, or Teammate
+[INFO ] 2023-05-29 15:36:46.677 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 15:36:46.677 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 15:36:47.133 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 15:36:47.430 [main] RunCukesTest -  suite finished at Mon May 29 15:36:47 IST 2023
+[INFO ] 2023-05-29 15:36:47.430 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 15:36:48.169 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-05-29 15:36:48.170 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-05-29 15:36:48.171 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-05-29 15:36:48.260 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @CreateAccount_Tc_02, @CreateAccount.html
+[INFO ] 2023-05-29 15:42:48.500 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-05-29 15:42:48.703 [main] RunCukesTest - CHROME
+[INFO ] 2023-05-29 15:42:48.703 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 15:42:48.704 [main] RunCukesTest -  Suite started at Mon May 29 15:42:48 IST 2023
+[INFO ] 2023-05-29 15:42:48.705 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-05-29 15:42:48.708 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-05-29 15:42:48.709 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-05-29 15:42:48.710 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 15:42:50.296 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 15:42:50.297 [main] Hooks - Test Started: Verify the Create Account Link on the Login Page of WDX
+[INFO ] 2023-05-29 15:42:50.297 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 15:42:50.298 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 15:43:39.600 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 15:43:45.472 [main] KeywordUtil - Login
+[INFO ] 2023-05-29 15:43:45.695 [main] KeywordUtil - Click : By.xpath: //span[text()='Create Account']
+[INFO ] 2023-05-29 15:43:48.108 [main] KeywordUtil - create account page is visible 
+[INFO ] 2023-05-29 15:43:48.109 [main] KeywordUtil - Get Element text: By.xpath: //div[text()='Create Your Account']
+[INFO ] 2023-05-29 15:43:48.214 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-05-29 15:43:49.827 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 15:43:49.827 [main] Hooks - Test Started: Verify Create Account fields for Warrior, FSM, or Teammate
+[INFO ] 2023-05-29 15:43:49.828 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 15:43:49.828 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 15:43:49.928 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 15:43:50.549 [main] RunCukesTest -  suite finished at Mon May 29 15:43:50 IST 2023
+[INFO ] 2023-05-29 15:43:50.550 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 15:43:52.192 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-05-29 15:43:52.193 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-05-29 15:43:52.194 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-05-29 15:43:52.444 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @CreateAccount_Tc_02, @CreateAccount.html
+[INFO ] 2023-05-29 16:19:16.791 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-05-29 16:19:16.935 [main] RunCukesTest - CHROME
+[INFO ] 2023-05-29 16:19:16.935 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:19:16.936 [main] RunCukesTest -  Suite started at Mon May 29 16:19:16 IST 2023
+[INFO ] 2023-05-29 16:19:16.936 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-05-29 16:19:16.939 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-05-29 16:19:16.939 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-05-29 16:19:16.940 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:19:18.422 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 16:19:18.424 [main] Hooks - Test Started: Verify the Create Account Link on the Login Page of WDX
+[INFO ] 2023-05-29 16:19:18.424 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 16:19:18.425 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 16:19:22.248 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-29 16:25:57.091 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-05-29 16:25:57.236 [main] RunCukesTest - CHROME
+[INFO ] 2023-05-29 16:25:57.237 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:25:57.237 [main] RunCukesTest -  Suite started at Mon May 29 16:25:57 IST 2023
+[INFO ] 2023-05-29 16:25:57.238 [main] RunCukesTest - Suite Execution For Web application on environment : Remote
+[INFO ] 2023-05-29 16:25:57.240 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-05-29 16:25:57.241 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-05-29 16:25:57.241 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:25:58.756 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 16:25:58.757 [main] Hooks - Test Started: Verify the Create Account Link on the Login Page of WDX
+[INFO ] 2023-05-29 16:25:58.757 [main] Hooks - Test is executed in Environment: Remote
+[INFO ] 2023-05-29 16:25:58.758 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 16:27:11.649 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-05-29 16:27:11.796 [main] RunCukesTest - CHROME
+[INFO ] 2023-05-29 16:27:11.797 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:27:11.797 [main] RunCukesTest -  Suite started at Mon May 29 16:27:11 IST 2023
+[INFO ] 2023-05-29 16:27:11.798 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-05-29 16:27:11.800 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-05-29 16:27:11.801 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-05-29 16:27:11.801 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:27:13.253 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 16:27:13.254 [main] Hooks - Test Started: Verify the Create Account Link on the Login Page of WDX
+[INFO ] 2023-05-29 16:27:13.254 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 16:27:13.255 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 16:28:05.555 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 16:28:10.391 [main] KeywordUtil - Login
+[INFO ] 2023-05-29 16:28:10.725 [main] KeywordUtil - Click : By.xpath: //span[text()='Create Account']
+[INFO ] 2023-05-29 16:28:13.271 [main] KeywordUtil - create account page is visible 
+[INFO ] 2023-05-29 16:28:13.273 [main] KeywordUtil - Get Element text: By.xpath: //div[text()='Create Your Account']
+[INFO ] 2023-05-29 16:28:13.599 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 16:28:13.600 [main] Hooks - Test Started: Verify Create Account fields for Warrior, FSM, or Teammate
+[INFO ] 2023-05-29 16:28:13.601 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 16:28:13.602 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 16:28:13.620 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-29 16:28:13.647 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 16:28:16.872 [main] KeywordUtil - Login
+[INFO ] 2023-05-29 16:28:17.062 [main] KeywordUtil - Click : By.xpath: //span[text()='Create Account']
+[INFO ] 2023-05-29 16:28:19.684 [main] KeywordUtil - create account page is visible 
+[INFO ] 2023-05-29 16:28:19.685 [main] KeywordUtil - Get Element text: By.xpath: //div[text()='Create Your Account']
+[INFO ] 2023-05-29 16:28:19.993 [main] KeywordUtil - First Name field is visible 
+[INFO ] 2023-05-29 16:28:20.164 [main] KeywordUtil - Last Name field is visible 
+[INFO ] 2023-05-29 16:28:20.311 [main] KeywordUtil - Email field is visible 
+[INFO ] 2023-05-29 16:28:20.453 [main] KeywordUtil - Continue button is visible 
+[INFO ] 2023-05-29 16:28:20.458 [main] KeywordUtil - Input Text: abhinav - By.xpath: //input[@placeholder='First name']
+[INFO ] 2023-05-29 16:28:20.891 [main] KeywordUtil - Input Text: abhinav75812@gmail.com - By.xpath: //input[@placeholder='Email']
+[INFO ] 2023-05-29 16:28:21.538 [main] KeywordUtil - Click : By.xpath: //button[@title='Continue']
+[INFO ] 2023-05-29 16:28:21.788 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='success-message']
+[INFO ] 2023-05-29 16:28:55.102 [main] HTMLReportUtil - ExecutionReports\FailedScreenshots\ScreenShot_1685357933163.png
+[INFO ] 2023-05-29 16:28:57.416 [main] KeywordUtil - counterVar reset to 1
+[INFO ] 2023-05-29 16:28:58.409 [main] RunCukesTest -  suite finished at Mon May 29 16:28:58 IST 2023
+[INFO ] 2023-05-29 16:28:58.409 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:28:58.619 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-05-29 16:28:58.620 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-05-29 16:28:58.621 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-05-29 16:28:58.670 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @CreateAccount_Tc_02, @CreateAccount.html
+[INFO ] 2023-05-29 16:42:23.302 [main] RunCukesTest - CHROME
+[INFO ] 2023-05-29 16:42:23.312 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:42:23.313 [main] RunCukesTest -  Suite started at Mon May 29 16:42:23 IST 2023
+[INFO ] 2023-05-29 16:42:23.313 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-05-29 16:42:23.316 [main] RunCukesTest - Suite Execution For Android mobile application on version: 0.0
+[INFO ] 2023-05-29 16:42:23.316 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:42:24.763 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 16:42:24.764 [main] Hooks - Test Started: Verify the Create Account Link on the Login Page of WDX
+[INFO ] 2023-05-29 16:42:24.764 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 16:42:24.765 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 16:42:27.655 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-29 16:43:14.957 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 16:43:18.457 [main] KeywordUtil - Login
+[INFO ] 2023-05-29 16:43:18.669 [main] KeywordUtil - Click : By.xpath: //span[text()='Create Account']
+[INFO ] 2023-05-29 16:43:21.044 [main] KeywordUtil - create account page is visible 
+[INFO ] 2023-05-29 16:43:21.045 [main] KeywordUtil - Get Element text: By.xpath: //div[text()='Create Your Account']
+[INFO ] 2023-05-29 16:43:21.325 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 16:43:21.325 [main] Hooks - Test Started: Verify Create Account fields for Warrior, FSM, or Teammate
+[INFO ] 2023-05-29 16:43:21.326 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 16:43:21.327 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 16:43:21.344 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-29 16:43:21.375 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 16:43:24.295 [main] KeywordUtil - Login
+[INFO ] 2023-05-29 16:43:24.479 [main] KeywordUtil - Click : By.xpath: //span[text()='Create Account']
+[INFO ] 2023-05-29 16:43:26.963 [main] KeywordUtil - create account page is visible 
+[INFO ] 2023-05-29 16:43:26.964 [main] KeywordUtil - Get Element text: By.xpath: //div[text()='Create Your Account']
+[INFO ] 2023-05-29 16:43:27.259 [main] KeywordUtil - First Name field is visible 
+[INFO ] 2023-05-29 16:43:27.461 [main] KeywordUtil - Last Name field is visible 
+[INFO ] 2023-05-29 16:43:27.632 [main] KeywordUtil - Email field is visible 
+[INFO ] 2023-05-29 16:43:27.832 [main] KeywordUtil - Continue button is visible 
+[INFO ] 2023-05-29 16:43:27.839 [main] KeywordUtil - Input Text: abhinav - By.xpath: //input[@placeholder='First name']
+[INFO ] 2023-05-29 16:43:28.348 [main] KeywordUtil - Input Text: abhinav75812@gmail.com - By.xpath: //input[@placeholder='Email']
+[INFO ] 2023-05-29 16:43:29.077 [main] KeywordUtil - Click : By.xpath: //button[@title='Continue']
+[INFO ] 2023-05-29 16:43:29.402 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='success-message']
+[INFO ] 2023-05-29 16:44:01.204 [main] HTMLReportUtil - ExecutionReports\FailedScreenshots\ScreenShot_1685358840643.png
+[INFO ] 2023-05-29 16:44:03.933 [main] KeywordUtil - counterVar reset to 1
+[INFO ] 2023-05-29 16:44:05.383 [main] RunCukesTest -  suite finished at Mon May 29 16:44:05 IST 2023
+[INFO ] 2023-05-29 16:44:05.384 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:44:05.840 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-05-29 16:44:05.841 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-05-29 16:44:05.842 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-05-29 16:44:05.918 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @CreateAccount_Tc_02, @CreateAccount.html
+[INFO ] 2023-05-29 16:47:39.653 [main] RunCukesTest - CHROME
+[INFO ] 2023-05-29 16:47:39.665 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:47:39.667 [main] RunCukesTest -  Suite started at Mon May 29 16:47:39 IST 2023
+[INFO ] 2023-05-29 16:47:39.667 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-05-29 16:47:39.670 [main] RunCukesTest - Suite Execution For Android mobile application on version: 0.0
+[INFO ] 2023-05-29 16:47:39.671 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:47:41.320 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 16:47:41.321 [main] Hooks - Test Started: Verify the Create Account Link on the Login Page of WDX
+[INFO ] 2023-05-29 16:47:41.322 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 16:47:41.323 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 16:47:44.710 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-29 16:48:33.027 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 16:48:44.202 [main] KeywordUtil - Login
+[INFO ] 2023-05-29 16:48:44.484 [main] KeywordUtil - Click : By.xpath: //span[text()='Create Account']
+[INFO ] 2023-05-29 16:48:46.909 [main] KeywordUtil - create account page is visible 
+[INFO ] 2023-05-29 16:48:46.910 [main] KeywordUtil - Get Element text: By.xpath: //div[text()='Create Your Account']
+[INFO ] 2023-05-29 16:48:47.279 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 16:48:47.280 [main] Hooks - Test Started: Verify Create Account fields for Warrior, FSM, or Teammate
+[INFO ] 2023-05-29 16:48:47.281 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 16:48:47.282 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 16:48:47.302 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-29 16:48:47.334 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 16:48:50.129 [main] KeywordUtil - Login
+[INFO ] 2023-05-29 16:48:50.273 [main] KeywordUtil - Click : By.xpath: //span[text()='Create Account']
+[INFO ] 2023-05-29 16:48:52.801 [main] KeywordUtil - create account page is visible 
+[INFO ] 2023-05-29 16:48:52.802 [main] KeywordUtil - Get Element text: By.xpath: //div[text()='Create Your Account']
+[INFO ] 2023-05-29 16:48:53.078 [main] KeywordUtil - First Name field is visible 
+[INFO ] 2023-05-29 16:48:53.255 [main] KeywordUtil - Last Name field is visible 
+[INFO ] 2023-05-29 16:48:53.387 [main] KeywordUtil - Email field is visible 
+[INFO ] 2023-05-29 16:48:53.526 [main] KeywordUtil - Continue button is visible 
+[INFO ] 2023-05-29 16:48:53.532 [main] KeywordUtil - Input Text: abhinav - By.xpath: //input[@placeholder='First name']
+[INFO ] 2023-05-29 16:48:53.969 [main] KeywordUtil - Input Text: abhinav75812@gmail.com - By.xpath: //input[@placeholder='Email']
+[INFO ] 2023-05-29 16:48:54.707 [main] KeywordUtil - Click : By.xpath: //button[@title='Continue']
+[INFO ] 2023-05-29 16:48:55.012 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='success-message']
+[INFO ] 2023-05-29 16:49:26.634 [main] HTMLReportUtil - ExecutionReports\FailedScreenshots\ScreenShot_1685359166220.png
+[INFO ] 2023-05-29 16:49:29.115 [main] KeywordUtil - counterVar reset to 1
+[INFO ] 2023-05-29 16:49:30.817 [main] RunCukesTest -  suite finished at Mon May 29 16:49:30 IST 2023
+[INFO ] 2023-05-29 16:49:30.818 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:49:31.407 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-05-29 16:49:31.408 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-05-29 16:49:31.413 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-05-29 16:49:31.541 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @CreateAccount_Tc_02, @CreateAccount.html
+[INFO ] 2023-05-29 16:51:10.863 [main] RunCukesTest - CHROME
+[INFO ] 2023-05-29 16:51:10.871 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:51:10.872 [main] RunCukesTest -  Suite started at Mon May 29 16:51:10 IST 2023
+[INFO ] 2023-05-29 16:51:10.872 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-05-29 16:51:10.874 [main] RunCukesTest - Suite Execution For Android mobile application on version: 0.0
+[INFO ] 2023-05-29 16:51:10.875 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:51:12.229 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 16:51:12.230 [main] Hooks - Test Started: Verify the Create Account Link on the Login Page of WDX
+[INFO ] 2023-05-29 16:51:12.231 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 16:51:12.231 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 16:51:15.681 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-29 16:52:03.377 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 16:52:09.123 [main] KeywordUtil - Login
+[INFO ] 2023-05-29 16:52:09.481 [main] KeywordUtil - Click : By.xpath: //span[text()='Create Account']
+[INFO ] 2023-05-29 16:52:12.004 [main] KeywordUtil - create account page is visible 
+[INFO ] 2023-05-29 16:52:12.006 [main] KeywordUtil - Get Element text: By.xpath: //div[text()='Create Your Account']
+[INFO ] 2023-05-29 16:52:12.341 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 16:52:12.341 [main] Hooks - Test Started: Verify Create Account fields for Warrior, FSM, or Teammate
+[INFO ] 2023-05-29 16:52:12.342 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 16:52:12.343 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 16:52:12.360 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-29 16:52:12.388 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 16:52:15.169 [main] KeywordUtil - Login
+[INFO ] 2023-05-29 16:52:15.351 [main] KeywordUtil - Click : By.xpath: //span[text()='Create Account']
+[INFO ] 2023-05-29 16:52:17.957 [main] KeywordUtil - create account page is visible 
+[INFO ] 2023-05-29 16:52:17.958 [main] KeywordUtil - Get Element text: By.xpath: //div[text()='Create Your Account']
+[INFO ] 2023-05-29 16:52:18.231 [main] KeywordUtil - First Name field is visible 
+[INFO ] 2023-05-29 16:52:18.386 [main] KeywordUtil - Last Name field is visible 
+[INFO ] 2023-05-29 16:52:18.518 [main] KeywordUtil - Email field is visible 
+[INFO ] 2023-05-29 16:52:18.644 [main] KeywordUtil - Continue button is visible 
+[INFO ] 2023-05-29 16:52:18.650 [main] KeywordUtil - Input Text: abhinav - By.xpath: //input[@placeholder='First name']
+[INFO ] 2023-05-29 16:52:19.053 [main] KeywordUtil - Input Text: abhinav75812@gmail.com - By.xpath: //input[@placeholder='Email']
+[INFO ] 2023-05-29 16:52:19.732 [main] KeywordUtil - Click : By.xpath: //button[@title='Continue']
+[INFO ] 2023-05-29 16:52:20.680 [main] RunCukesTest -  suite finished at Mon May 29 16:52:20 IST 2023
+[INFO ] 2023-05-29 16:52:20.680 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:52:21.856 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-05-29 16:52:21.857 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-05-29 16:52:21.860 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-05-29 16:52:21.977 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @CreateAccount_Tc_02, @CreateAccount.html
+[INFO ] 2023-05-29 16:58:16.172 [main] RunCukesTest - CHROME
+[INFO ] 2023-05-29 16:58:16.191 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:58:16.193 [main] RunCukesTest -  Suite started at Mon May 29 16:58:16 IST 2023
+[INFO ] 2023-05-29 16:58:16.194 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-05-29 16:58:16.198 [main] RunCukesTest - Suite Execution For Android mobile application on version: 0.0
+[INFO ] 2023-05-29 16:58:16.199 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:58:18.808 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 16:58:18.809 [main] Hooks - Test Started: Verify the Create Account Link on the Login Page of WDX
+[INFO ] 2023-05-29 16:58:18.810 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 16:58:18.812 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 16:58:23.507 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-29 16:58:23.529 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 16:58:31.090 [main] KeywordUtil - Login
+[INFO ] 2023-05-29 16:58:31.393 [main] KeywordUtil - Click : By.xpath: //span[text()='Create Account']
+[INFO ] 2023-05-29 16:58:33.968 [main] KeywordUtil - create account page is visible 
+[INFO ] 2023-05-29 16:58:33.969 [main] KeywordUtil - Get Element text: By.xpath: //div[text()='Create Your Account']
+[INFO ] 2023-05-29 16:58:34.273 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 16:58:34.273 [main] Hooks - Test Started: Verify Create Account fields for Warrior, FSM, or Teammate
+[INFO ] 2023-05-29 16:58:34.274 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 16:58:34.274 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 16:58:35.520 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-29 16:58:35.548 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 16:58:38.752 [main] KeywordUtil - Login
+[INFO ] 2023-05-29 16:58:38.861 [main] KeywordUtil - Click : By.xpath: //span[text()='Create Account']
+[INFO ] 2023-05-29 16:58:41.199 [main] KeywordUtil - create account page is visible 
+[INFO ] 2023-05-29 16:58:41.199 [main] KeywordUtil - Get Element text: By.xpath: //div[text()='Create Your Account']
+[INFO ] 2023-05-29 16:58:41.447 [main] KeywordUtil - First Name field is visible 
+[INFO ] 2023-05-29 16:58:41.562 [main] KeywordUtil - Last Name field is visible 
+[INFO ] 2023-05-29 16:58:41.677 [main] KeywordUtil - Email field is visible 
+[INFO ] 2023-05-29 16:58:41.765 [main] KeywordUtil - Continue button is visible 
+[INFO ] 2023-05-29 16:58:41.768 [main] KeywordUtil - Input Text: abhinav - By.xpath: //input[@placeholder='First name']
+[INFO ] 2023-05-29 16:58:42.038 [main] KeywordUtil - Input Text: abhinav75812@gmail.com - By.xpath: //input[@placeholder='Email']
+[INFO ] 2023-05-29 16:58:42.401 [main] KeywordUtil - Click : By.xpath: //button[@title='Continue']
+[INFO ] 2023-05-29 16:58:42.891 [main] RunCukesTest -  suite finished at Mon May 29 16:58:42 IST 2023
+[INFO ] 2023-05-29 16:58:42.892 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 16:58:43.590 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-05-29 16:58:43.591 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-05-29 16:58:43.592 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-05-29 16:58:43.650 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @CreateAccount_Tc_02, @CreateAccount.html
+[INFO ] 2023-05-29 17:04:36.226 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-05-29 17:04:36.393 [main] RunCukesTest - CHROME
+[INFO ] 2023-05-29 17:04:36.394 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 17:04:36.395 [main] RunCukesTest -  Suite started at Mon May 29 17:04:36 IST 2023
+[INFO ] 2023-05-29 17:04:36.395 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-05-29 17:04:36.397 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-05-29 17:04:36.398 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-05-29 17:04:36.399 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 17:04:38.028 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 17:04:38.029 [main] Hooks - Test Started: Verify the Create Account Link on the Login Page of WDX
+[INFO ] 2023-05-29 17:04:38.030 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 17:04:38.030 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 17:04:42.573 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-29 17:04:42.599 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 17:04:49.354 [main] KeywordUtil - Login
+[INFO ] 2023-05-29 17:04:49.598 [main] KeywordUtil - Click : By.xpath: //span[text()='Create Account']
+[INFO ] 2023-05-29 17:04:52.020 [main] KeywordUtil - create account page is visible 
+[INFO ] 2023-05-29 17:04:52.024 [main] KeywordUtil - Get Element text: By.xpath: //div[text()='Create Your Account']
+[INFO ] 2023-05-29 17:04:52.202 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-05-29 17:04:54.031 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 17:04:54.032 [main] Hooks - Test Started: Verify Create Account fields for Warrior, FSM, or Teammate
+[INFO ] 2023-05-29 17:04:54.032 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 17:04:54.033 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 17:04:56.865 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-29 17:04:56.867 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 17:05:02.026 [main] KeywordUtil - Login
+[INFO ] 2023-05-29 17:05:02.216 [main] KeywordUtil - Click : By.xpath: //span[text()='Create Account']
+[INFO ] 2023-05-29 17:05:04.603 [main] KeywordUtil - create account page is visible 
+[INFO ] 2023-05-29 17:05:04.604 [main] KeywordUtil - Get Element text: By.xpath: //div[text()='Create Your Account']
+[INFO ] 2023-05-29 17:05:04.969 [main] KeywordUtil - First Name field is visible 
+[INFO ] 2023-05-29 17:05:05.138 [main] KeywordUtil - Last Name field is visible 
+[INFO ] 2023-05-29 17:05:05.321 [main] KeywordUtil - Email field is visible 
+[INFO ] 2023-05-29 17:05:05.480 [main] KeywordUtil - Continue button is visible 
+[INFO ] 2023-05-29 17:05:05.486 [main] KeywordUtil - Input Text: abhinav - By.xpath: //input[@placeholder='First name']
+[INFO ] 2023-05-29 17:05:05.999 [main] KeywordUtil - Input Text: abhinav75812@gmail.com - By.xpath: //input[@placeholder='Email']
+[INFO ] 2023-05-29 17:05:06.694 [main] KeywordUtil - Click : By.xpath: //button[@title='Continue']
+[INFO ] 2023-05-29 17:05:07.047 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-05-29 17:05:08.700 [main] RunCukesTest -  suite finished at Mon May 29 17:05:08 IST 2023
+[INFO ] 2023-05-29 17:05:08.701 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 17:05:09.927 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-05-29 17:05:09.928 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-05-29 17:05:09.931 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-05-29 17:05:10.027 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @CreateAccount_Tc_02, @CreateAccount.html
+[INFO ] 2023-05-29 17:10:40.298 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-05-29 17:10:40.494 [main] RunCukesTest - CHROME
+[INFO ] 2023-05-29 17:10:40.495 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 17:10:40.496 [main] RunCukesTest -  Suite started at Mon May 29 17:10:40 IST 2023
+[INFO ] 2023-05-29 17:10:40.497 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-05-29 17:10:40.500 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-05-29 17:10:40.501 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-05-29 17:10:40.501 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 17:10:42.246 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 17:10:42.247 [main] Hooks - Test Started: Verify the Create Account Link on the Login Page of WDX
+[INFO ] 2023-05-29 17:10:42.248 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 17:10:42.248 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 17:10:46.475 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-29 17:10:47.488 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 17:10:53.193 [main] KeywordUtil - Login
+[INFO ] 2023-05-29 17:10:53.528 [main] KeywordUtil - Click : By.xpath: //span[text()='Create Account']
+[INFO ] 2023-05-29 17:10:56.187 [main] KeywordUtil - create account page is visible 
+[INFO ] 2023-05-29 17:10:56.189 [main] KeywordUtil - Get Element text: By.xpath: //div[text()='Create Your Account']
+[INFO ] 2023-05-29 17:10:56.343 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-05-29 17:10:57.495 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-29 17:10:57.496 [main] Hooks - Test Started: Verify Create Account fields for Warrior, FSM, or Teammate
+[INFO ] 2023-05-29 17:10:57.497 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-29 17:10:57.498 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-29 17:11:00.777 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-29 17:11:01.388 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-29 17:11:06.521 [main] KeywordUtil - Login
+[INFO ] 2023-05-29 17:11:06.825 [main] KeywordUtil - Click : By.xpath: //span[text()='Create Account']
+[INFO ] 2023-05-29 17:11:09.442 [main] KeywordUtil - create account page is visible 
+[INFO ] 2023-05-29 17:11:09.443 [main] KeywordUtil - Get Element text: By.xpath: //div[text()='Create Your Account']
+[INFO ] 2023-05-29 17:11:09.864 [main] KeywordUtil - First Name field is visible 
+[INFO ] 2023-05-29 17:11:10.065 [main] KeywordUtil - Last Name field is visible 
+[INFO ] 2023-05-29 17:11:10.243 [main] KeywordUtil - Email field is visible 
+[INFO ] 2023-05-29 17:11:10.423 [main] KeywordUtil - Continue button is visible 
+[INFO ] 2023-05-29 17:11:10.428 [main] KeywordUtil - Input Text: abhinav - By.xpath: //input[@placeholder='First name']
+[INFO ] 2023-05-29 17:11:10.986 [main] KeywordUtil - Input Text: abhinav75812@gmail.com - By.xpath: //input[@placeholder='Email']
+[INFO ] 2023-05-29 17:11:11.720 [main] KeywordUtil - Click : By.xpath: //button[@title='Continue']
+[INFO ] 2023-05-29 17:11:12.196 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-05-29 17:11:13.591 [main] RunCukesTest -  suite finished at Mon May 29 17:11:13 IST 2023
+[INFO ] 2023-05-29 17:11:13.591 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-29 17:11:14.355 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-05-29 17:11:14.356 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-05-29 17:11:14.357 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-05-29 17:11:14.428 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @CreateAccount_Tc_02, @CreateAccount.html

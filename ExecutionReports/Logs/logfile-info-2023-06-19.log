@@ -1,0 +1,897 @@
+[INFO ] 2023-06-19 14:31:30.441 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-19 14:31:30.588 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-19 14:31:30.589 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 14:31:30.590 [main] RunCukesTest -  Suite started at Mon Jun 19 14:31:30 IST 2023
+[INFO ] 2023-06-19 14:31:30.591 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-19 14:31:30.593 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-19 14:31:30.601 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-19 14:31:30.602 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 14:31:32.812 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 14:31:32.813 [main] Hooks - Test Started: Verify User can update initial quiz entries using my interest section
+[INFO ] 2023-06-19 14:31:32.813 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 14:31:32.814 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 14:32:22.587 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 14:32:23.760 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 14:32:33.411 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 14:32:33.433 [main] KeywordUtil - Input Text: abhinav.srivastava@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 14:32:34.124 [main] KeywordUtil - Input Text: Testing@123 - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 14:32:34.722 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 14:32:45.002 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 14:32:50.381 [main] KeywordUtil - Click : By.xpath: //a[@class='user-avatar-icon']
+[INFO ] 2023-06-19 14:32:55.389 [main] KeywordUtil - Click : By.xpath: //span[text()='Account']
+[INFO ] 2023-06-19 14:33:02.495 [main] KeywordUtil - Click : By.xpath: (//div[text()='My Interests']//following::a)[1]
+[INFO ] 2023-06-19 14:33:06.883 [main] KeywordUtil - My Interests is visible 
+[INFO ] 2023-06-19 14:33:10.465 [main] KeywordUtil - Click : By.xpath: (//input[@type='checkbox'])[1]
+[INFO ] 2023-06-19 14:33:15.238 [main] KeywordUtil - Click : By.xpath: //button[@title='Save']
+[INFO ] 2023-06-19 14:33:15.632 [main] KeywordUtil - success popup is visible 
+[INFO ] 2023-06-19 14:33:20.005 [main] KeywordUtil - Click : By.xpath: (//a[@title='For You'])[1]
+[INFO ] 2023-06-19 14:33:22.501 [main] KeywordUtil - For You link  active is visible 
+[INFO ] 2023-06-19 14:33:27.720 [main] KeywordUtil - Click : By.xpath: //a[@title='All']
+[INFO ] 2023-06-19 14:33:28.029 [main] KeywordUtil - clicked on All filter is visible 
+[INFO ] 2023-06-19 14:33:40.467 [main] KeywordUtil - Click : By.xpath: //button[text()='Show more']
+[INFO ] 2023-06-19 14:33:44.815 [main] KeywordUtil - Get List of Elements: By.xpath: //div[@class='content-wrapper']//div[@class='title-section']
+[INFO ] 2023-06-19 14:33:50.255 [main] KeywordUtil - Click : By.xpath: //a[@class='user-avatar-icon']
+[INFO ] 2023-06-19 14:33:53.758 [main] KeywordUtil - Click : By.xpath: //span[text()='Account']
+[INFO ] 2023-06-19 14:33:59.264 [main] KeywordUtil - Click : By.xpath: (//div[text()='My Interests']//following::a)[1]
+[INFO ] 2023-06-19 14:34:03.513 [main] KeywordUtil - My Interests is visible 
+[INFO ] 2023-06-19 14:34:06.844 [main] KeywordUtil - Click : By.xpath: (//div[text()='Benefits Services ']//following::a)[1]
+[INFO ] 2023-06-19 14:34:07.076 [main] KeywordUtil - Get List of Elements: By.xpath: //div[text()='Benefits Services ']//parent::div//parent::div[@class='carousel']//input[@type='checkbox']
+[INFO ] 2023-06-19 14:34:08.392 [main] KeywordUtil - checkbox 1 is selected 
+[INFO ] 2023-06-19 14:34:11.730 [main] KeywordUtil - Click : By.xpath: (//div[text()='Benefits Services ']//parent::div//parent::div[@class='carousel']//input[@type='checkbox'])[1]
+[INFO ] 2023-06-19 14:34:13.146 [main] KeywordUtil - checkbox 2 is selected 
+[INFO ] 2023-06-19 14:34:16.499 [main] KeywordUtil - Click : By.xpath: (//div[text()='Benefits Services ']//parent::div//parent::div[@class='carousel']//input[@type='checkbox'])[2]
+[INFO ] 2023-06-19 14:34:23.329 [main] KeywordUtil - Click : By.xpath: //button[@title='Save']
+[INFO ] 2023-06-19 14:34:23.630 [main] KeywordUtil - success popup is visible 
+[INFO ] 2023-06-19 14:34:28.041 [main] KeywordUtil - Click : By.xpath: (//a[@title='For You'])[1]
+[INFO ] 2023-06-19 14:34:30.522 [main] KeywordUtil - For You link  active is visible 
+[INFO ] 2023-06-19 14:34:35.730 [main] KeywordUtil - Click : By.xpath: //a[@title='All']
+[INFO ] 2023-06-19 14:34:36.004 [main] KeywordUtil - clicked on All filter is visible 
+[INFO ] 2023-06-19 14:34:48.378 [main] KeywordUtil - Click : By.xpath: //button[text()='Show more']
+[INFO ] 2023-06-19 14:34:52.676 [main] KeywordUtil - Get List of Elements: By.xpath: //div[@class='content-wrapper']//div[@class='title-section']
+[INFO ] 2023-06-19 14:34:58.051 [main] KeywordUtil - Click : By.xpath: //a[@class='user-avatar-icon']
+[INFO ] 2023-06-19 14:35:01.558 [main] KeywordUtil - Click : By.xpath: //span[text()='Account']
+[INFO ] 2023-06-19 14:35:07.032 [main] KeywordUtil - Click : By.xpath: (//div[text()='My Interests']//following::a)[1]
+[INFO ] 2023-06-19 14:35:11.296 [main] KeywordUtil - My Interests is visible 
+[INFO ] 2023-06-19 14:35:14.634 [main] KeywordUtil - Click : By.xpath: (//div[text()='Benefits Services ']//following::a)[1]
+[INFO ] 2023-06-19 14:35:18.325 [main] KeywordUtil - Click : By.xpath: (//div[text()='Benefits Services ']//parent::div//parent::div[@class='carousel']//input[@type='checkbox'])[1]
+[INFO ] 2023-06-19 14:35:21.998 [main] KeywordUtil - Click : By.xpath: (//div[text()='Benefits Services ']//parent::div//parent::div[@class='carousel']//input[@type='checkbox'])[2]
+[INFO ] 2023-06-19 14:35:25.631 [main] KeywordUtil - Click : By.xpath: (//input[@type='checkbox'])[1]
+[INFO ] 2023-06-19 14:35:30.238 [main] KeywordUtil - Click : By.xpath: //button[@title='Save']
+[INFO ] 2023-06-19 14:35:30.488 [main] KeywordUtil - success popup is visible 
+[INFO ] 2023-06-19 14:35:30.493 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-19 14:35:31.998 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 14:35:31.999 [main] Hooks - Test Started: Verify Logged in User can edit my personal contact information to keep WWP updated with my current email, phone number, and mailing address.
+[INFO ] 2023-06-19 14:35:32.000 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 14:35:32.001 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 14:35:36.159 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 14:35:36.787 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 14:35:40.702 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 14:35:40.704 [main] KeywordUtil - Input Text: abhinav.srivastava@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 14:35:41.385 [main] KeywordUtil - Input Text: Testing@123 - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 14:35:42.039 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 14:35:50.059 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 14:35:55.436 [main] KeywordUtil - Click : By.xpath: //a[@class='user-avatar-icon']
+[INFO ] 2023-06-19 14:36:01.398 [main] KeywordUtil - Click : By.xpath: //span[text()='Account']
+[INFO ] 2023-06-19 14:36:08.254 [main] KeywordUtil - Click : By.xpath: (//div[text()='My Contact Info']//following::a)[1]
+[INFO ] 2023-06-19 14:36:12.699 [main] KeywordUtil - My Contact Info is visible 
+[INFO ] 2023-06-19 14:36:16.030 [main] KeywordUtil - Click : By.xpath: (//div[text()='Email']//following::a)[1]
+[INFO ] 2023-06-19 14:36:17.344 [main] KeywordUtil - Email field  is visible 
+[INFO ] 2023-06-19 14:36:20.665 [main] KeywordUtil - Click : By.xpath: //a[@title='Go Back']
+[INFO ] 2023-06-19 14:36:25.265 [main] KeywordUtil - Click : By.xpath: (//div[text()='Mobile Phone']//following::a)[1]
+[INFO ] 2023-06-19 14:36:28.614 [main] KeywordUtil - Mobile Phone field  is visible 
+[INFO ] 2023-06-19 14:36:31.936 [main] KeywordUtil - Click : By.xpath: //a[@title='Go Back']
+[INFO ] 2023-06-19 14:36:36.560 [main] KeywordUtil - Click : By.xpath: (//div[text()='Address']//following::a)[1]
+[INFO ] 2023-06-19 14:36:40.264 [main] KeywordUtil - Click : By.xpath: //div[@data-id='countryForm']//a[@class='text-box-select']
+[INFO ] 2023-06-19 14:36:40.551 [main] KeywordUtil - Input Text: United states - By.xpath: //input[@placeholder='Search Country']
+[INFO ] 2023-06-19 14:36:41.186 [main] KeywordUtil - Click : By.xpath: //a[@data-value='US']
+[INFO ] 2023-06-19 14:36:44.755 [main] KeywordUtil - Click : By.xpath: //div[@data-id='stateForm']//a[@class='text-box-select']
+[INFO ] 2023-06-19 14:36:44.983 [main] KeywordUtil - Input Text: armed forces - By.xpath: //input[@placeholder='Search State']
+[INFO ] 2023-06-19 14:36:45.497 [main] KeywordUtil - Armed Forces Europe  is visible 
+[INFO ] 2023-06-19 14:36:45.582 [main] KeywordUtil - Armed Forces Pacific  is visible 
+[INFO ] 2023-06-19 14:36:45.658 [main] KeywordUtil - Armed Forces Central and South Americas  is visible 
+[INFO ] 2023-06-19 14:36:45.803 [main] KeywordUtil - Click : By.xpath: //a[text()='Armed Forces Europe']
+[INFO ] 2023-06-19 14:36:50.445 [main] KeywordUtil - Click : By.xpath: //a[@title='Go Back']
+[INFO ] 2023-06-19 14:36:53.962 [main] KeywordUtil - Click : By.xpath: (//div[text()='Email']//following::a)[1]
+[INFO ] 2023-06-19 14:36:57.613 [main] KeywordUtil - Input Text: abhinav1.srivastava@testingxperts.com - By.xpath: //input
+[INFO ] 2023-06-19 14:36:58.223 [main] KeywordUtil - Click : By.xpath: //button[@title='Save']
+[INFO ] 2023-06-19 14:37:01.631 [main] KeywordUtil - email successfully got updated is visible 
+[INFO ] 2023-06-19 14:37:04.982 [main] KeywordUtil - Click : By.xpath: (//div[text()='Email']//following::a)[1]
+[INFO ] 2023-06-19 14:37:08.698 [main] KeywordUtil - Input Text: abhinav.srivastava@testingxperts.com - By.xpath: //input
+[INFO ] 2023-06-19 14:37:09.260 [main] KeywordUtil - Click : By.xpath: //button[@title='Save']
+[INFO ] 2023-06-19 14:37:17.843 [main] KeywordUtil - Click : By.xpath: (//div[text()='Mobile Phone']//following::a)[1]
+[INFO ] 2023-06-19 14:37:19.442 [main] KeywordUtil - Click : By.xpath: //div[@class='iti__arrow']
+[INFO ] 2023-06-19 14:37:23.531 [main] KeywordUtil - Click : By.xpath: (//span[@class='iti__country-name' and text()='United States'])[1]
+[INFO ] 2023-06-19 14:37:29.193 [main] KeywordUtil - Click : By.xpath: //div[@class='iti__arrow']
+[INFO ] 2023-06-19 14:37:33.004 [main] KeywordUtil - Click : By.xpath: (//span[@class='iti__country-name' and text()='United Kingdom'])[1]
+[INFO ] 2023-06-19 14:37:35.460 [main] KeywordUtil - Click : By.xpath: //button[@title='Save']
+[INFO ] 2023-06-19 14:37:41.849 [main] KeywordUtil - email successfully got updated is visible 
+[INFO ] 2023-06-19 14:37:47.156 [main] KeywordUtil - Click : By.xpath: (//div[text()='Address']//following::a)[1]
+[INFO ] 2023-06-19 14:37:50.830 [main] KeywordUtil - Input Text: Ganges - By.xpath: //input[@placeholder='Your Street...']
+[INFO ] 2023-06-19 14:37:55.510 [main] KeywordUtil - Click : By.xpath: //button[@title='Save']
+[INFO ] 2023-06-19 14:37:58.807 [main] KeywordUtil - Address successfully got updated is visible 
+[INFO ] 2023-06-19 14:37:58.810 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-19 14:38:01.376 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 14:38:01.376 [main] Hooks - Test Started: Verify Logged in User can view and edit my public facing information (photo, text, privacy) for the other Users in the community.
+[INFO ] 2023-06-19 14:38:01.377 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 14:38:01.377 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 14:38:04.305 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 14:38:04.654 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 14:38:09.607 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 14:38:09.609 [main] KeywordUtil - Input Text: abhinav.srivastava@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 14:38:10.276 [main] KeywordUtil - Input Text: Testing@123 - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 14:38:10.878 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 14:38:18.340 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 14:38:23.686 [main] KeywordUtil - Click : By.xpath: //a[@class='user-avatar-icon']
+[INFO ] 2023-06-19 14:38:48.531 [main] KeywordUtil - Click : By.xpath: //span[text()='Account']
+[INFO ] 2023-06-19 14:38:58.267 [main] KeywordUtil - Click : By.xpath: //a[text()='Add']
+[INFO ] 2023-06-19 14:39:00.581 [main] KeywordUtil - About Me Page Heading is visible 
+[INFO ] 2023-06-19 14:39:04.001 [main] KeywordUtil - Input Text: Helllo  - By.xpath: //textarea[@class='text-box']
+[INFO ] 2023-06-19 14:39:07.685 [main] KeywordUtil - Click : By.xpath: //button[@title='Save']
+[INFO ] 2023-06-19 14:39:11.106 [main] KeywordUtil - Address successfully got updated is visible 
+[INFO ] 2023-06-19 14:39:14.510 [main] KeywordUtil - Click : By.xpath: //a[text()='View Privacy Settings ']
+[INFO ] 2023-06-19 14:39:16.891 [main] KeywordUtil - Privacy settings heading  is visible 
+[INFO ] 2023-06-19 14:39:16.892 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-19 14:39:18.557 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 14:39:18.585 [main] Hooks - Test Started: Verify Logged in User can set my preferences for communications from WDX and WWP to controle where the user get messages and notifications.
+[INFO ] 2023-06-19 14:39:18.586 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 14:39:18.593 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 14:39:21.783 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 14:39:22.247 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 14:39:26.451 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 14:39:26.453 [main] KeywordUtil - Input Text: abhinav.srivastava@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 14:39:27.119 [main] KeywordUtil - Input Text: Testing@123 - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 14:39:27.653 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 14:39:35.883 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 14:39:41.333 [main] KeywordUtil - Click : By.xpath: //a[@class='user-avatar-icon']
+[INFO ] 2023-06-19 14:39:47.938 [main] KeywordUtil - Click : By.xpath: //span[text()='Account']
+[INFO ] 2023-06-19 14:39:57.305 [main] KeywordUtil - Click : By.xpath: (//a[@title='Update'])[1]
+[INFO ] 2023-06-19 14:40:02.144 [main] KeywordUtil - notification page heading is visible 
+[INFO ] 2023-06-19 14:40:05.431 [main] KeywordUtil - Connection Requests settings is visible 
+[INFO ] 2023-06-19 14:40:08.703 [main] KeywordUtil - Direct messages settings is visible 
+[INFO ] 2023-06-19 14:40:11.984 [main] KeywordUtil - Account Updates settings is visible 
+[INFO ] 2023-06-19 14:40:11.986 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-19 14:40:13.502 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 14:40:13.502 [main] Hooks - Test Started: Verify Logged in User can choose privacy settings for my account and manage security parameters change password, profile visibility according to my preferences.
+[INFO ] 2023-06-19 14:40:13.503 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 14:40:13.503 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 14:40:17.056 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 14:40:17.712 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 14:40:21.780 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 14:40:21.782 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 14:40:22.339 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 14:40:22.927 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 14:40:31.422 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 14:40:36.766 [main] KeywordUtil - Click : By.xpath: //a[@class='user-avatar-icon']
+[INFO ] 2023-06-19 14:40:44.996 [main] KeywordUtil - Click : By.xpath: //span[text()='Account']
+[INFO ] 2023-06-19 14:40:54.483 [main] KeywordUtil - Click : By.xpath: (//div[text()='Privacy Settings']//following::a)[1]
+[INFO ] 2023-06-19 14:40:56.780 [main] KeywordUtil - Privacy Settings heading  is visible 
+[INFO ] 2023-06-19 14:40:56.782 [main] KeywordUtil - Is Radio Selected: By.xpath: //div[text()='Stay Visible']//following::input
+[INFO ] 2023-06-19 14:40:57.067 [main] KeywordUtil - Click : By.xpath: //div[text()='Stay Visible']//following::input
+[INFO ] 2023-06-19 14:41:00.733 [main] KeywordUtil - Click : By.xpath: //button[@title='Save']
+[INFO ] 2023-06-19 14:41:14.312 [main] KeywordUtil - Click : By.xpath: (//a[@title='Groups'])[1]
+[INFO ] 2023-06-19 14:41:22.506 [main] HTMLReportUtil - ExecutionReports\FailedScreenshots\ScreenShot_1687165881367.png
+[INFO ] 2023-06-19 14:41:28.301 [main] RunCukesTest -  suite finished at Mon Jun 19 14:41:28 IST 2023
+[INFO ] 2023-06-19 14:41:28.302 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 14:41:29.446 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-19 14:41:29.447 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-19 14:41:29.448 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-19 14:41:29.522 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @Account_management_TC09, @account.html
+[INFO ] 2023-06-19 14:44:12.998 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-19 14:44:13.147 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-19 14:44:13.148 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 14:44:13.148 [main] RunCukesTest -  Suite started at Mon Jun 19 14:44:13 IST 2023
+[INFO ] 2023-06-19 14:44:13.149 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-19 14:44:13.152 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-19 14:44:13.152 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-19 14:44:13.153 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 14:44:15.348 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 14:44:15.349 [main] Hooks - Test Started: Verify Logged in User can choose privacy settings for my account and manage security parameters change password, profile visibility according to my preferences.
+[INFO ] 2023-06-19 14:44:15.351 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 14:44:15.352 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 14:44:19.352 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 14:44:20.299 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 14:44:25.125 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 14:44:25.147 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 14:44:25.836 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 14:44:26.434 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 14:44:34.468 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 14:44:39.862 [main] KeywordUtil - Click : By.xpath: //a[@class='user-avatar-icon']
+[INFO ] 2023-06-19 14:44:46.473 [main] KeywordUtil - Click : By.xpath: //span[text()='Account']
+[INFO ] 2023-06-19 14:44:56.514 [main] KeywordUtil - Click : By.xpath: (//div[text()='Privacy Settings']//following::a)[1]
+[INFO ] 2023-06-19 14:44:58.983 [main] KeywordUtil - Privacy Settings heading  is visible 
+[INFO ] 2023-06-19 14:44:58.985 [main] KeywordUtil - Is Radio Selected: By.xpath: //div[text()='Stay Visible']//following::input
+[INFO ] 2023-06-19 14:45:02.481 [main] KeywordUtil - Click : By.xpath: (//a[@title='Groups'])[1]
+[INFO ] 2023-06-19 14:45:12.218 [main] KeywordUtil - Private Note   is visible 
+[INFO ] 2023-06-19 14:45:17.585 [main] KeywordUtil - Click : By.xpath: //a[@class='user-avatar-icon']
+[INFO ] 2023-06-19 14:45:21.235 [main] KeywordUtil - Click : By.xpath: //span[text()='Account']
+[INFO ] 2023-06-19 14:45:30.000 [main] KeywordUtil - Click : By.xpath: (//div[text()='Privacy Settings']//following::a)[1]
+[INFO ] 2023-06-19 14:45:32.303 [main] KeywordUtil - Privacy Settings heading  is visible 
+[INFO ] 2023-06-19 14:45:32.305 [main] KeywordUtil - Is Radio Selected: By.xpath: //div[text()='Stay Visible']//preceding::input
+[INFO ] 2023-06-19 14:45:32.559 [main] KeywordUtil - Click : By.xpath: //div[text()='Stay Visible']//preceding::input
+[INFO ] 2023-06-19 14:45:36.166 [main] KeywordUtil - Click : By.xpath: //button[@title='Save']
+[INFO ] 2023-06-19 14:45:49.753 [main] KeywordUtil - Click : By.xpath: (//a[@title='Groups'])[1]
+[INFO ] 2023-06-19 14:45:51.003 [main] HTMLReportUtil - ExecutionReports\FailedScreenshots\ScreenShot_1687166150154.png
+[INFO ] 2023-06-19 14:45:56.078 [main] RunCukesTest -  suite finished at Mon Jun 19 14:45:56 IST 2023
+[INFO ] 2023-06-19 14:45:56.079 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 14:45:58.252 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-19 14:45:58.253 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-19 14:45:58.255 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-19 14:45:58.398 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @Account_management_TC09, @account1.html
+[INFO ] 2023-06-19 14:47:09.960 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-19 14:47:10.167 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-19 14:47:10.167 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 14:47:10.168 [main] RunCukesTest -  Suite started at Mon Jun 19 14:47:10 IST 2023
+[INFO ] 2023-06-19 14:47:10.169 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-19 14:47:10.172 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-19 14:47:10.173 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-19 14:47:10.174 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 14:47:12.690 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 14:47:12.692 [main] Hooks - Test Started: Verify Logged in User can choose privacy settings for my account and manage security parameters change password, profile visibility according to my preferences.
+[INFO ] 2023-06-19 14:47:12.692 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 14:47:12.693 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 14:47:17.635 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 14:47:18.954 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 14:47:23.337 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 14:47:23.352 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 14:47:23.822 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 14:47:24.243 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 14:47:31.317 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 14:47:36.730 [main] KeywordUtil - Click : By.xpath: //a[@class='user-avatar-icon']
+[INFO ] 2023-06-19 14:47:47.195 [main] KeywordUtil - Click : By.xpath: //span[text()='Account']
+[INFO ] 2023-06-19 14:47:57.467 [main] KeywordUtil - Click : By.xpath: (//div[text()='Privacy Settings']//following::a)[1]
+[INFO ] 2023-06-19 14:47:59.835 [main] KeywordUtil - Privacy Settings heading  is visible 
+[INFO ] 2023-06-19 14:47:59.838 [main] KeywordUtil - Is Radio Selected: By.xpath: //div[text()='Stay Visible']//following::input
+[INFO ] 2023-06-19 14:48:00.120 [main] KeywordUtil - Click : By.xpath: //div[text()='Stay Visible']//following::input
+[INFO ] 2023-06-19 14:48:03.729 [main] KeywordUtil - Click : By.xpath: //button[@title='Save']
+[INFO ] 2023-06-19 14:48:17.354 [main] KeywordUtil - Click : By.xpath: (//a[@title='Groups'])[1]
+[INFO ] 2023-06-19 14:48:21.506 [main] HTMLReportUtil - ExecutionReports\FailedScreenshots\ScreenShot_1687166300536.png
+[INFO ] 2023-06-19 14:48:27.578 [main] RunCukesTest -  suite finished at Mon Jun 19 14:48:27 IST 2023
+[INFO ] 2023-06-19 14:48:27.583 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 14:48:28.963 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-19 14:48:28.964 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-19 14:48:28.976 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-19 14:48:29.042 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @Account_management_TC09, @account1.html
+[INFO ] 2023-06-19 14:53:40.032 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-19 14:53:40.171 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-19 14:53:40.172 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 14:53:40.172 [main] RunCukesTest -  Suite started at Mon Jun 19 14:53:40 IST 2023
+[INFO ] 2023-06-19 14:53:40.173 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-19 14:53:40.175 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-19 14:53:40.176 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-19 14:53:40.176 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 14:53:42.108 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 14:53:42.109 [main] Hooks - Test Started: Verify Logged in User can choose privacy settings for my account and manage security parameters change password, profile visibility according to my preferences.
+[INFO ] 2023-06-19 14:53:42.109 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 14:53:42.109 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 14:53:46.301 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 14:53:47.538 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 14:53:52.674 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 14:53:52.690 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 14:53:53.110 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 14:53:53.473 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 14:54:01.557 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 14:54:06.944 [main] KeywordUtil - Click : By.xpath: //a[@class='user-avatar-icon']
+[INFO ] 2023-06-19 14:54:13.411 [main] KeywordUtil - Click : By.xpath: //span[text()='Account']
+[INFO ] 2023-06-19 14:54:22.937 [main] KeywordUtil - Click : By.xpath: (//div[text()='Privacy Settings']//following::a)[1]
+[INFO ] 2023-06-19 14:54:25.411 [main] KeywordUtil - Privacy Settings heading  is visible 
+[INFO ] 2023-06-19 14:54:25.413 [main] KeywordUtil - Is Radio Selected: By.xpath: //div[text()='Stay Visible']//following::input
+[INFO ] 2023-06-19 14:54:28.947 [main] KeywordUtil - Click : By.xpath: (//a[@title='Groups'])[1]
+[INFO ] 2023-06-19 14:54:34.587 [main] HTMLReportUtil - ExecutionReports\FailedScreenshots\ScreenShot_1687166673311.png
+[INFO ] 2023-06-19 14:54:39.771 [main] RunCukesTest -  suite finished at Mon Jun 19 14:54:39 IST 2023
+[INFO ] 2023-06-19 14:54:39.772 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 14:54:41.602 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-19 14:54:41.603 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-19 14:54:41.604 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-19 14:54:41.690 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @Account_management_TC09, @account1.html
+[INFO ] 2023-06-19 15:01:30.581 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-19 15:01:30.726 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-19 15:01:30.726 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 15:01:30.727 [main] RunCukesTest -  Suite started at Mon Jun 19 15:01:30 IST 2023
+[INFO ] 2023-06-19 15:01:30.728 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-19 15:01:30.730 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-19 15:01:30.731 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-19 15:01:30.731 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 15:01:33.076 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 15:01:33.077 [main] Hooks - Test Started: Verify Logged in User can choose privacy settings for my account and manage security parameters change password, profile visibility according to my preferences.
+[INFO ] 2023-06-19 15:01:33.077 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 15:01:33.078 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 15:01:36.245 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 15:01:36.729 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 15:01:41.684 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 15:01:41.697 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 15:01:42.088 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 15:01:42.417 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 15:01:59.716 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 15:02:05.216 [main] KeywordUtil - Click : By.xpath: //a[@class='user-avatar-icon']
+[INFO ] 2023-06-19 15:02:08.870 [main] KeywordUtil - Click : By.xpath: //span[text()='Account']
+[INFO ] 2023-06-19 15:02:19.405 [main] KeywordUtil - Click : By.xpath: (//div[text()='Privacy Settings']//following::a)[1]
+[INFO ] 2023-06-19 15:02:21.785 [main] KeywordUtil - Privacy Settings heading  is visible 
+[INFO ] 2023-06-19 15:02:21.788 [main] KeywordUtil - Is Radio Selected: By.xpath: //div[text()='Stay Visible']//following::input
+[INFO ] 2023-06-19 15:02:25.236 [main] KeywordUtil - Click : By.xpath: (//a[@title='Groups'])[1]
+[INFO ] 2023-06-19 15:02:29.370 [main] KeywordUtil - Private Note   is visible 
+[INFO ] 2023-06-19 15:02:34.697 [main] KeywordUtil - Click : By.xpath: //a[@class='user-avatar-icon']
+[INFO ] 2023-06-19 15:02:38.249 [main] KeywordUtil - Click : By.xpath: //span[text()='Account']
+[INFO ] 2023-06-19 15:02:47.007 [main] KeywordUtil - Click : By.xpath: (//div[text()='Privacy Settings']//following::a)[1]
+[INFO ] 2023-06-19 15:02:49.365 [main] KeywordUtil - Privacy Settings heading  is visible 
+[INFO ] 2023-06-19 15:02:49.367 [main] KeywordUtil - Is Radio Selected: By.xpath: //div[text()='Stay Visible']//preceding::input
+[INFO ] 2023-06-19 15:02:49.643 [main] KeywordUtil - Click : By.xpath: //div[text()='Stay Visible']//preceding::input
+[INFO ] 2023-06-19 15:02:53.274 [main] KeywordUtil - Click : By.xpath: //button[@title='Save']
+[INFO ] 2023-06-19 15:03:06.838 [main] KeywordUtil - Click : By.xpath: (//a[@title='Groups'])[1]
+[INFO ] 2023-06-19 15:03:13.562 [main] KeywordUtil - like link visible  is visible 
+[INFO ] 2023-06-19 15:03:18.916 [main] KeywordUtil - Click : By.xpath: //a[@class='user-avatar-icon']
+[INFO ] 2023-06-19 15:03:22.498 [main] KeywordUtil - Click : By.xpath: //span[text()='Account']
+[INFO ] 2023-06-19 15:03:31.274 [main] KeywordUtil - Click : By.xpath: (//div[text()='Privacy Settings']//following::a)[1]
+[INFO ] 2023-06-19 15:03:33.552 [main] KeywordUtil - Privacy Settings heading  is visible 
+[INFO ] 2023-06-19 15:03:36.892 [main] KeywordUtil - Click : By.xpath: //a[@title='Learn More']
+[INFO ] 2023-06-19 15:03:39.217 [main] KeywordUtil - privacy setting heading on popup is visible 
+[INFO ] 2023-06-19 15:03:42.601 [main] KeywordUtil - Click : By.xpath: //div[@class='close-button']
+[INFO ] 2023-06-19 15:03:46.228 [main] KeywordUtil - Click : By.xpath: //a[@title='Update']
+[INFO ] 2023-06-19 15:03:49.858 [main] KeywordUtil - Click : By.xpath: //button[@class='action action-yes']
+[INFO ] 2023-06-19 15:03:50.132 [main] KeywordUtil - Navigate to: https://login.microsoftonline.com/
+[INFO ] 2023-06-19 15:03:52.070 [main] KeywordUtil - Sign in to your account
+[INFO ] 2023-06-19 15:04:02.080 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@type='email']
+[INFO ] 2023-06-19 15:04:02.742 [main] KeywordUtil - Click : By.xpath: //input[@id='idSIButton9']
+[INFO ] 2023-06-19 15:04:03.068 [main] KeywordUtil - Input Text: Vaishu1234$ - By.xpath: //input[@type='password']
+[INFO ] 2023-06-19 15:04:04.412 [main] KeywordUtil - Click : By.xpath: //input[@data-report-event='Signin_Submit']
+[INFO ] 2023-06-19 15:04:10.540 [main] KeywordUtil - Click : By.xpath: //input[@value='Yes']
+[INFO ] 2023-06-19 15:04:43.954 [main] KeywordUtil - Click : By.xpath: //img[@src='https://res-1.cdn.office.net/shellux/outlook_24x.59692ba8e1f344194426952916c16896.svg']
+[INFO ] 2023-06-19 15:05:05.541 [main] KeywordUtil - Click : By.xpath: (//span[@title='resourcecenter@woundedwarriorproject.org'])[1]
+[INFO ] 2023-06-19 15:05:14.354 [main] KeywordUtil - Get Element text: By.xpath: (//span[@style='font-size:12pt'])[1]
+[INFO ] 2023-06-19 15:05:14.530 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/login?c=3d2w.I7_UkkAlgqIcez0m9Eio352MZGzqPAiPDbq1QQ21fXlKL41WzjcWTtPiLfFAVabO2ddzldjnFfwwh3Cpe4oArLkJPeGihwmUa0VP2YM0mTTeBoS6X0mbjY8XzM5BFpiC6d3e8e..0zdNBhFvInSfBbC27gdxQJjtmvQZjICYo.e1c1usTSHOs7lcvELXZ.4F0ST7T1LrMwqIgGCBOWshesTjfuF1BpWeqb9nN0A8mtiobc%3D
+[INFO ] 2023-06-19 15:05:16.162 [main] KeywordUtil - 
+[INFO ] 2023-06-19 15:05:21.931 [main] KeywordUtil - Choose your password page is visible 
+[INFO ] 2023-06-19 15:05:21.931 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 15:05:22.273 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Retype your password']
+[INFO ] 2023-06-19 15:05:22.942 [main] KeywordUtil - Click : By.xpath: //button[text()='Create Password']
+[INFO ] 2023-06-19 15:05:25.367 [main] KeywordUtil - Continue to Home Page is visible 
+[INFO ] 2023-06-19 15:05:25.516 [main] KeywordUtil - Veteran helpline number is visible 
+[INFO ] 2023-06-19 15:05:25.522 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-19 15:05:29.051 [main] RunCukesTest -  suite finished at Mon Jun 19 15:05:29 IST 2023
+[INFO ] 2023-06-19 15:05:29.052 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 15:05:30.818 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-19 15:05:30.819 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-19 15:05:30.820 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-19 15:05:30.906 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @Account_management_TC09, @account1.html
+[INFO ] 2023-06-19 16:27:55.101 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-19 16:27:55.248 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-19 16:27:55.249 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 16:27:55.250 [main] RunCukesTest -  Suite started at Mon Jun 19 16:27:55 IST 2023
+[INFO ] 2023-06-19 16:27:55.250 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-19 16:27:55.252 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-19 16:27:55.253 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-19 16:27:55.254 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 16:27:57.619 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 16:27:57.619 [main] Hooks - Test Started: Verify Warrior, FSM User can view Event Cards displays under the each Category.
+[INFO ] 2023-06-19 16:27:57.620 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 16:27:57.620 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 16:28:01.153 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 16:28:02.058 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 16:28:09.380 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 16:28:09.404 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 16:28:10.171 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 16:28:10.823 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 16:28:19.101 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 16:28:19.103 [main] KeywordUtil - Get List of Elements: By.xpath: //div[@class='navigation']//parent::div//c-wwp-card-event
+[INFO ] 2023-06-19 16:28:21.412 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 16:28:21.779 [main] KeywordUtil - Call of Duty: MWII - Multiplayer Community Night is visible 
+[INFO ] 2023-06-19 16:28:21.781 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//div[@class='description'])[1]
+[INFO ] 2023-06-19 16:28:22.106 [main] KeywordUtil - Play private matches with other warriors through various game modes is visible 
+[INFO ] 2023-06-19 16:28:22.108 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//div[@class='time'])[1]
+[INFO ] 2023-06-19 16:28:22.428 [main] KeywordUtil - 04:00 PM - 06:00 PM EST is visible 
+[INFO ] 2023-06-19 16:28:22.429 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//div[@class='date-wrapper'])[1]
+[INFO ] 2023-06-19 16:28:22.751 [main] KeywordUtil - Jul
+1 is visible 
+[INFO ] 2023-06-19 16:28:22.757 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-19 16:28:24.355 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 16:28:24.356 [main] Hooks - Test Started: Verify Warrior, FSM User can view Event Cards displays under the each Category.
+[INFO ] 2023-06-19 16:28:24.357 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 16:28:24.357 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 16:28:27.187 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 16:28:27.707 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 16:32:02.424 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-19 16:32:02.572 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-19 16:32:02.573 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 16:32:02.574 [main] RunCukesTest -  Suite started at Mon Jun 19 16:32:02 IST 2023
+[INFO ] 2023-06-19 16:32:02.575 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-19 16:32:02.577 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-19 16:32:02.578 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-19 16:32:02.578 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 16:32:04.626 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 16:32:04.627 [main] Hooks - Test Started: Verify Warrior, FSM User can view Event Cards displays under the each Category.
+[INFO ] 2023-06-19 16:32:04.627 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 16:32:04.628 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 16:32:07.767 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 16:32:08.439 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 16:32:12.872 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 16:32:12.898 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 16:32:13.915 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 16:32:14.685 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 16:32:21.482 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 16:32:21.485 [main] KeywordUtil - Get List of Elements: By.xpath: //div[@class='navigation']//parent::div//c-wwp-card-event
+[INFO ] 2023-06-19 16:32:22.971 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 16:32:23.350 [main] KeywordUtil - Blitz Trampoline Park Day is visible 
+[INFO ] 2023-06-19 16:32:23.352 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//div[@class='description'])[1]
+[INFO ] 2023-06-19 16:32:23.712 [main] KeywordUtil - Family day at the trampoline park! is visible 
+[INFO ] 2023-06-19 16:32:23.714 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//div[@class='time'])[1]
+[INFO ] 2023-06-19 16:32:24.033 [main] KeywordUtil - 04:00 PM - 05:00 PM EST is visible 
+[INFO ] 2023-06-19 16:32:24.034 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='navigation']//parent::div//c-wwp-card-event//div[@class='date-wrapper']
+[INFO ] 2023-06-19 16:32:24.334 [main] KeywordUtil - Jun
+22 is visible 
+[INFO ] 2023-06-19 16:32:24.339 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-19 16:32:26.286 [main] RunCukesTest -  suite finished at Mon Jun 19 16:32:26 IST 2023
+[INFO ] 2023-06-19 16:32:26.287 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 16:32:27.395 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-19 16:32:27.396 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-19 16:32:27.399 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-19 16:32:27.539 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @EventTc_02.html
+[INFO ] 2023-06-19 16:33:34.314 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-19 16:33:34.465 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-19 16:33:34.466 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 16:33:34.467 [main] RunCukesTest -  Suite started at Mon Jun 19 16:33:34 IST 2023
+[INFO ] 2023-06-19 16:33:34.467 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-19 16:33:34.470 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-19 16:33:34.470 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-19 16:33:34.471 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 16:33:36.601 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 16:33:36.602 [main] Hooks - Test Started: Verify Warrior, FSM User can view Event Cards displays under the each Category.
+[INFO ] 2023-06-19 16:33:36.603 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 16:33:36.603 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 16:33:40.932 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 16:33:41.798 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 16:33:48.277 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 16:33:48.307 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 16:33:49.114 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 16:33:49.801 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 16:33:57.982 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 16:33:57.985 [main] KeywordUtil - Get List of Elements: By.xpath: //div[@class='navigation']//parent::div//c-wwp-card-event
+[INFO ] 2023-06-19 16:33:59.054 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 16:33:59.371 [main] KeywordUtil - Call of Duty: MWII - Multiplayer Community Night is visible 
+[INFO ] 2023-06-19 16:33:59.373 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//div[@class='description'])[1]
+[INFO ] 2023-06-19 16:33:59.676 [main] KeywordUtil - Play private matches with other warriors through various game modes is visible 
+[INFO ] 2023-06-19 16:33:59.677 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//div[@class='time'])[1]
+[INFO ] 2023-06-19 16:33:59.950 [main] KeywordUtil - 04:00 PM - 06:00 PM EST is visible 
+[INFO ] 2023-06-19 16:33:59.951 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='navigation']//parent::div//c-wwp-card-event//div[@class='date-wrapper']
+[INFO ] 2023-06-19 16:34:00.286 [main] KeywordUtil - Jul
+1 is visible 
+[INFO ] 2023-06-19 16:34:00.291 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-19 16:34:02.197 [main] RunCukesTest -  suite finished at Mon Jun 19 16:34:02 IST 2023
+[INFO ] 2023-06-19 16:34:02.198 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 16:34:03.410 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-19 16:34:03.412 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-19 16:34:03.414 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-19 16:34:03.494 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @EventTc_02.html
+[INFO ] 2023-06-19 16:41:33.749 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-19 16:41:33.906 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-19 16:41:33.907 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 16:41:33.908 [main] RunCukesTest -  Suite started at Mon Jun 19 16:41:33 IST 2023
+[INFO ] 2023-06-19 16:41:33.908 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-19 16:41:33.910 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-19 16:41:33.911 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-19 16:41:33.912 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 16:41:35.988 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 16:41:35.989 [main] Hooks - Test Started: Verify Warrior, FSM User can view Event Cards displays under the each Category.
+[INFO ] 2023-06-19 16:41:35.989 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 16:41:35.990 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 16:41:40.370 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 16:41:41.251 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 16:41:46.596 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 16:41:46.618 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 16:41:47.293 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 16:41:47.871 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 16:41:56.344 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 16:41:56.347 [main] KeywordUtil - Get List of Elements: By.xpath: //div[@class='navigation']//parent::div//c-wwp-card-event
+[INFO ] 2023-06-19 16:41:57.699 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 16:41:58.062 [main] KeywordUtil - Call of Duty: MWII - Multiplayer Community Night is visible 
+[INFO ] 2023-06-19 16:41:58.064 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//div[@class='description'])[1]
+[INFO ] 2023-06-19 16:41:58.348 [main] KeywordUtil - Play private matches with other warriors through various game modes is visible 
+[INFO ] 2023-06-19 16:41:58.350 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//div[@class='time'])[1]
+[INFO ] 2023-06-19 16:41:58.592 [main] KeywordUtil - 04:00 PM - 06:00 PM EST is visible 
+[INFO ] 2023-06-19 16:41:58.593 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='navigation']//parent::div//c-wwp-card-event//div[@class='date-wrapper']
+[INFO ] 2023-06-19 16:41:58.847 [main] KeywordUtil - Jul
+1 is visible 
+[INFO ] 2023-06-19 16:41:58.851 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-19 16:42:00.338 [main] RunCukesTest -  suite finished at Mon Jun 19 16:42:00 IST 2023
+[INFO ] 2023-06-19 16:42:00.338 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 16:42:01.061 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-19 16:42:01.062 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-19 16:42:01.063 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-19 16:42:01.117 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @EventTc_02.html
+[INFO ] 2023-06-19 16:43:41.052 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-19 16:43:41.247 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-19 16:43:41.248 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 16:43:41.249 [main] RunCukesTest -  Suite started at Mon Jun 19 16:43:41 IST 2023
+[INFO ] 2023-06-19 16:43:41.250 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-19 16:43:41.252 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-19 16:43:41.253 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-19 16:43:41.254 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 16:43:43.711 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 16:43:43.712 [main] Hooks - Test Started: Verify Event Cards and Event title redirection when Warrior, FSM User click on Event Card or title
+[INFO ] 2023-06-19 16:43:43.713 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 16:43:43.713 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 16:43:46.837 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 16:43:47.705 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 16:43:51.895 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 16:43:51.922 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 16:43:52.604 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 16:43:53.223 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 16:44:00.747 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 16:44:00.750 [main] KeywordUtil - Get List of Elements: By.xpath: //div[@class='navigation']//parent::div//c-wwp-card-event
+[INFO ] 2023-06-19 16:44:02.635 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 16:44:03.102 [main] KeywordUtil - Blitz Trampoline Park Day is visible 
+[INFO ] 2023-06-19 16:44:08.347 [main] KeywordUtil - Click : By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 16:44:14.783 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-19 16:44:19.182 [main] RunCukesTest -  suite finished at Mon Jun 19 16:44:19 IST 2023
+[INFO ] 2023-06-19 16:44:19.183 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 16:44:19.751 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-19 16:44:19.752 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-19 16:44:19.753 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-19 16:44:19.810 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @EventTc_03.html
+[INFO ] 2023-06-19 16:48:08.652 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-19 16:48:08.785 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-19 16:48:08.785 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 16:48:08.786 [main] RunCukesTest -  Suite started at Mon Jun 19 16:48:08 IST 2023
+[INFO ] 2023-06-19 16:48:08.787 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-19 16:48:08.789 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-19 16:48:08.790 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-19 16:48:08.790 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 16:48:10.793 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 16:48:10.794 [main] Hooks - Test Started: Verify Event Cards and Event title redirection when Warrior, FSM User click on Event Card or title
+[INFO ] 2023-06-19 16:48:10.795 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 16:48:10.795 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 16:48:16.249 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 16:48:17.106 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 16:48:21.029 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 16:48:21.056 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 16:48:21.759 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 16:48:22.372 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 16:48:32.872 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 16:48:32.875 [main] KeywordUtil - Get List of Elements: By.xpath: //div[@class='navigation']//parent::div//c-wwp-card-event
+[INFO ] 2023-06-19 16:48:34.868 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 16:48:35.304 [main] KeywordUtil - Beach Hike is visible 
+[INFO ] 2023-06-19 16:48:40.716 [main] KeywordUtil - Click : By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 16:48:46.616 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-19 16:48:47.829 [main] RunCukesTest -  suite finished at Mon Jun 19 16:48:47 IST 2023
+[INFO ] 2023-06-19 16:48:47.829 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 16:48:48.401 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-19 16:48:48.402 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-19 16:48:48.404 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-19 16:48:48.461 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @EventTc_03.html
+[INFO ] 2023-06-19 17:39:00.679 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-19 17:39:00.870 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-19 17:39:00.871 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 17:39:00.872 [main] RunCukesTest -  Suite started at Mon Jun 19 17:39:00 IST 2023
+[INFO ] 2023-06-19 17:39:00.873 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-19 17:39:00.875 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-19 17:39:00.876 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-19 17:39:00.876 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 17:39:03.408 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 17:39:03.409 [main] Hooks - Test Started: Verify Warrior , FSM User can view the Event Details page contents such as Event Date, Time, Register to Join Button and related Event Gallary.
+[INFO ] 2023-06-19 17:39:03.415 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 17:39:03.415 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 17:39:06.718 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 17:39:07.553 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 17:39:15.286 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 17:39:15.304 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 17:39:16.047 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 17:39:16.922 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 17:39:25.730 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 17:39:25.733 [main] KeywordUtil - Get List of Elements: By.xpath: //div[@class='navigation']//parent::div//c-wwp-card-event
+[INFO ] 2023-06-19 17:39:27.054 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 17:39:27.474 [main] KeywordUtil - Veteran Readiness & Employment Session is visible 
+[INFO ] 2023-06-19 17:39:32.741 [main] KeywordUtil - Click : By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 17:39:59.161 [main] KeywordUtil - Back Button is visible 
+[INFO ] 2023-06-19 17:39:59.357 [main] KeywordUtil - Share Button is visible 
+[INFO ] 2023-06-19 17:39:59.358 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='content'])[1]
+[INFO ] 2023-06-19 17:40:30.529 [main] HTMLReportUtil - ExecutionReports\FailedScreenshots\ScreenShot_1687176629612.png
+[INFO ] 2023-06-19 17:40:34.892 [main] RunCukesTest -  suite finished at Mon Jun 19 17:40:34 IST 2023
+[INFO ] 2023-06-19 17:40:34.893 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 17:40:35.800 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-19 17:40:35.801 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-19 17:40:35.803 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-19 17:40:35.902 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @EventTc_04.html
+[INFO ] 2023-06-19 17:45:22.890 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-19 17:45:23.042 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-19 17:45:23.043 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 17:45:23.044 [main] RunCukesTest -  Suite started at Mon Jun 19 17:45:23 IST 2023
+[INFO ] 2023-06-19 17:45:23.044 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-19 17:45:23.048 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-19 17:45:23.048 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-19 17:45:23.049 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 17:45:25.164 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 17:45:25.164 [main] Hooks - Test Started: Verify Warrior , FSM User can view the Event Details page contents such as Event Date, Time, Register to Join Button and related Event Gallary.
+[INFO ] 2023-06-19 17:45:25.165 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 17:45:25.165 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 17:45:28.593 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 17:45:29.114 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 17:45:37.527 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 17:45:37.554 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 17:45:38.350 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 17:45:39.173 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 17:45:48.632 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 17:45:48.636 [main] KeywordUtil - Get List of Elements: By.xpath: //div[@class='navigation']//parent::div//c-wwp-card-event
+[INFO ] 2023-06-19 17:45:48.820 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 17:45:49.212 [main] KeywordUtil - Beach Hike is visible 
+[INFO ] 2023-06-19 17:45:54.451 [main] KeywordUtil - Click : By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 17:46:27.302 [main] KeywordUtil - Back Button is visible 
+[INFO ] 2023-06-19 17:46:27.450 [main] KeywordUtil - Share Button is visible 
+[INFO ] 2023-06-19 17:46:27.451 [main] KeywordUtil - Get Element text: By.xpath: //h1//div[@class='content']
+[INFO ] 2023-06-19 17:46:58.764 [main] HTMLReportUtil - ExecutionReports\FailedScreenshots\ScreenShot_1687177017945.png
+[INFO ] 2023-06-19 17:47:03.840 [main] RunCukesTest -  suite finished at Mon Jun 19 17:47:03 IST 2023
+[INFO ] 2023-06-19 17:47:03.841 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 17:47:05.586 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-19 17:47:05.587 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-19 17:47:05.589 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-19 17:47:05.664 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @EventTc_04.html
+[INFO ] 2023-06-19 17:57:15.959 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-19 17:57:16.171 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-19 17:57:16.172 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 17:57:16.173 [main] RunCukesTest -  Suite started at Mon Jun 19 17:57:16 IST 2023
+[INFO ] 2023-06-19 17:57:16.174 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-19 17:57:16.177 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-19 17:57:16.178 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-19 17:57:16.179 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 17:57:18.501 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 17:57:18.502 [main] Hooks - Test Started: Verify Event detail page Share and Back button functionality.
+[INFO ] 2023-06-19 17:57:18.502 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 17:57:18.503 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 17:57:23.488 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 17:57:24.649 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 17:57:29.939 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 17:57:29.948 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 17:57:30.320 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 17:57:30.742 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 17:57:39.372 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 17:57:39.376 [main] KeywordUtil - Get List of Elements: By.xpath: //div[@class='navigation']//parent::div//c-wwp-card-event
+[INFO ] 2023-06-19 17:57:40.517 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 17:57:40.869 [main] KeywordUtil - Blitz Trampoline Park Day is visible 
+[INFO ] 2023-06-19 17:57:46.083 [main] KeywordUtil - Click : By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 17:57:47.952 [main] HTMLReportUtil - ExecutionReports\FailedScreenshots\ScreenShot_1687177667603.png
+[INFO ] 2023-06-19 17:57:53.141 [main] RunCukesTest -  suite finished at Mon Jun 19 17:57:53 IST 2023
+[INFO ] 2023-06-19 17:57:53.142 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 17:57:54.437 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-19 17:57:54.438 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-19 17:57:54.440 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-19 17:57:54.524 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @EventTc_05.html
+[INFO ] 2023-06-19 17:59:59.672 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-19 17:59:59.817 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-19 17:59:59.818 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 17:59:59.818 [main] RunCukesTest -  Suite started at Mon Jun 19 17:59:59 IST 2023
+[INFO ] 2023-06-19 17:59:59.819 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-19 17:59:59.821 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-19 17:59:59.822 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-19 17:59:59.823 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 18:00:01.900 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 18:00:01.901 [main] Hooks - Test Started: Verify Event detail page Share and Back button functionality.
+[INFO ] 2023-06-19 18:00:01.902 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 18:00:01.903 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 18:00:04.958 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 18:00:05.446 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 18:00:10.666 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 18:00:10.692 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 18:00:11.419 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 18:00:12.008 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 18:00:20.230 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 18:00:20.233 [main] KeywordUtil - Get List of Elements: By.xpath: //div[@class='navigation']//parent::div//c-wwp-card-event
+[INFO ] 2023-06-19 18:00:21.722 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 18:00:22.063 [main] KeywordUtil - Blitz Trampoline Park Day is visible 
+[INFO ] 2023-06-19 18:00:27.298 [main] KeywordUtil - Click : By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 18:00:38.187 [main] KeywordUtil - Click : By.xpath: //button[@title='Share']
+[INFO ] 2023-06-19 18:00:38.556 [main] KeywordUtil - copy link is visible is visible 
+[INFO ] 2023-06-19 18:00:38.709 [main] KeywordUtil - Click : By.xpath: //div[@title='Copy Link']
+[INFO ] 2023-06-19 18:00:39.074 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='iziToast-texts']//div//div[2]
+[INFO ] 2023-06-19 18:00:39.626 [main] KeywordUtil - Copied
+Link copied to clipboard is visible 
+[INFO ] 2023-06-19 18:00:39.854 [main] KeywordUtil - Click : By.xpath: //button[@class='iziToast-close']
+[INFO ] 2023-06-19 18:00:47.559 [main] KeywordUtil - Click : By.xpath: //button[@title='Share']
+[INFO ] 2023-06-19 18:00:47.985 [main] KeywordUtil - search button is present is visible 
+[INFO ] 2023-06-19 18:00:47.987 [main] KeywordUtil - Get List of Elements: By.xpath: //div[@class='user']
+[INFO ] 2023-06-19 18:00:48.789 [main] KeywordUtil - Input Text: Example UATWarrior1 - By.xpath: //input[@class='search-input']
+[INFO ] 2023-06-19 18:00:49.417 [main] KeywordUtil - Click : By.xpath: //button[@class='search-button']
+[INFO ] 2023-06-19 18:00:55.097 [main] KeywordUtil - Click : By.xpath: //div[@class='close-button']
+[INFO ] 2023-06-19 18:01:00.520 [main] KeywordUtil - Click : By.xpath: //span[text()='Back']
+[INFO ] 2023-06-19 18:01:06.941 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-19 18:01:09.741 [main] RunCukesTest -  suite finished at Mon Jun 19 18:01:09 IST 2023
+[INFO ] 2023-06-19 18:01:09.742 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 18:01:10.767 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-19 18:01:10.767 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-19 18:01:10.771 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-19 18:01:10.852 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @EventTc_05.html
+[INFO ] 2023-06-19 18:08:06.526 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-19 18:08:06.660 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-19 18:08:06.661 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 18:08:06.662 [main] RunCukesTest -  Suite started at Mon Jun 19 18:08:06 IST 2023
+[INFO ] 2023-06-19 18:08:06.662 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-19 18:08:06.664 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-19 18:08:06.665 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-19 18:08:06.666 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 18:08:08.538 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 18:08:08.539 [main] Hooks - Test Started: Verify Warrior, FSM User can view Event Cards displays under the each Category.
+[INFO ] 2023-06-19 18:08:08.539 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 18:08:08.540 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 18:08:13.042 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 18:08:14.069 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 18:08:20.422 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 18:08:20.449 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 18:08:21.358 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 18:08:21.996 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 18:08:31.039 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 18:08:31.043 [main] KeywordUtil - Get List of Elements: By.xpath: //div[@class='navigation']//parent::div//c-wwp-card-event
+[INFO ] 2023-06-19 18:08:32.378 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 18:08:32.743 [main] KeywordUtil - Blitz Trampoline Park Day is visible 
+[INFO ] 2023-06-19 18:08:32.744 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//div[@class='description'])[1]
+[INFO ] 2023-06-19 18:08:33.078 [main] KeywordUtil - Family day at the trampoline park! is visible 
+[INFO ] 2023-06-19 18:08:33.079 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//div[@class='time'])[1]
+[INFO ] 2023-06-19 18:08:33.432 [main] KeywordUtil - 04:00 PM - 05:00 PM EST is visible 
+[INFO ] 2023-06-19 18:08:33.433 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='navigation']//parent::div//c-wwp-card-event//div[@class='date-wrapper']
+[INFO ] 2023-06-19 18:08:33.727 [main] KeywordUtil - Jun
+22 is visible 
+[INFO ] 2023-06-19 18:08:33.733 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-19 18:08:35.419 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 18:08:35.421 [main] Hooks - Test Started: Verify Event Cards and Event title redirection when Warrior, FSM User click on Event Card or title
+[INFO ] 2023-06-19 18:08:35.421 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 18:08:35.422 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 18:08:37.473 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 18:08:37.920 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 18:08:41.897 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 18:08:41.899 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 18:08:42.631 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 18:08:43.330 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 18:08:50.524 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 18:08:50.527 [main] KeywordUtil - Get List of Elements: By.xpath: //div[@class='navigation']//parent::div//c-wwp-card-event
+[INFO ] 2023-06-19 18:08:52.201 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 18:08:52.523 [main] KeywordUtil - Beach Hike is visible 
+[INFO ] 2023-06-19 18:08:57.768 [main] KeywordUtil - Click : By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 18:09:03.125 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-19 18:09:06.079 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-19 18:09:06.080 [main] Hooks - Test Started: Verify Event detail page Share and Back button functionality.
+[INFO ] 2023-06-19 18:09:06.080 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-19 18:09:06.081 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-19 18:09:08.919 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-19 18:09:09.588 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-19 18:09:15.005 [main] KeywordUtil - Login
+[INFO ] 2023-06-19 18:09:15.010 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-19 18:09:15.594 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-19 18:09:16.252 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-19 18:09:23.190 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-19 18:09:23.196 [main] KeywordUtil - Get List of Elements: By.xpath: //div[@class='navigation']//parent::div//c-wwp-card-event
+[INFO ] 2023-06-19 18:09:25.130 [main] KeywordUtil - Get Element text: By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 18:09:25.447 [main] KeywordUtil - Blitz Trampoline Park Day is visible 
+[INFO ] 2023-06-19 18:09:30.854 [main] KeywordUtil - Click : By.xpath: (//div[@class='navigation']//parent::div//c-wwp-card-event//a[@class='title'])[1]
+[INFO ] 2023-06-19 18:09:41.720 [main] KeywordUtil - Click : By.xpath: //button[@title='Share']
+[INFO ] 2023-06-19 18:09:42.096 [main] KeywordUtil - copy link is visible is visible 
+[INFO ] 2023-06-19 18:09:42.259 [main] KeywordUtil - Click : By.xpath: //div[@title='Copy Link']
+[INFO ] 2023-06-19 18:09:42.565 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='iziToast-texts']//div//div[2]
+[INFO ] 2023-06-19 18:09:42.846 [main] KeywordUtil - Copied
+Link copied to clipboard is visible 
+[INFO ] 2023-06-19 18:09:42.989 [main] KeywordUtil - Click : By.xpath: //button[@class='iziToast-close']
+[INFO ] 2023-06-19 18:09:50.336 [main] KeywordUtil - Click : By.xpath: //button[@title='Share']
+[INFO ] 2023-06-19 18:09:50.645 [main] KeywordUtil - search button is present is visible 
+[INFO ] 2023-06-19 18:09:50.646 [main] KeywordUtil - Get List of Elements: By.xpath: //div[@class='user']
+[INFO ] 2023-06-19 18:09:51.111 [main] KeywordUtil - Input Text: Example UATWarrior1 - By.xpath: //input[@class='search-input']
+[INFO ] 2023-06-19 18:09:51.779 [main] KeywordUtil - Click : By.xpath: //button[@class='search-button']
+[INFO ] 2023-06-19 18:09:57.477 [main] KeywordUtil - Click : By.xpath: //div[@class='close-button']
+[INFO ] 2023-06-19 18:10:02.908 [main] KeywordUtil - Click : By.xpath: //span[text()='Back']
+[INFO ] 2023-06-19 18:10:09.324 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-19 18:10:11.128 [main] RunCukesTest -  suite finished at Mon Jun 19 18:10:11 IST 2023
+[INFO ] 2023-06-19 18:10:11.129 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-19 18:10:12.202 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-19 18:10:12.203 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-19 18:10:12.205 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-19 18:10:12.283 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @EventTc_05, @Event.html

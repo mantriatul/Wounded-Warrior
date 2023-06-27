@@ -50,6 +50,27 @@ Feature: Verify Login Page Functionality
       |Testdata1|
 
 
+  @Login_TC_05
+  Scenario Outline: Verify that the user is able to Login with valid credentials
+    Given Read the testdata "<TestData>" from excel file
+    When User navigates to the url
+    And User login to the Wounded Warrior
+
+    Examples:
+      |TestData |
+      |Testdata1|
+
+  @Login_TC_06
+  Scenario Outline: Verify the password masking functionality during the login
+    Given Read the testdata "<TestData>" from excel file
+    When User navigates to the url
+    And Verify the password masking functionality
+
+    Examples:
+      |TestData |
+      |TestData1|
+
+
   @Login_TC_07
   Scenario Outline: Verify the User login Validation with invalid credentials.
     Given Read the testdata "<TestData>" from excel file
@@ -64,14 +85,22 @@ Feature: Verify Login Page Functionality
       |Testdata1|
 
 
-
-  @Login_TC_05
+  @Login_TC_18
   Scenario Outline: Verify that the user is able to Login with valid credentials
     Given Read the testdata "<TestData>" from excel file
     When User navigates to the url
     And User login to the Wounded Warrior
+    Then Logout the user
+
 
     Examples:
       |TestData |
       |Testdata1|
+
+
+
+
+
+
+
 

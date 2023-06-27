@@ -10,8 +10,6 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.IOSElement;
-import io.appium.java_client.remote.AndroidMobileCapabilityType;
-import io.appium.java_client.remote.IOSMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.github.bonigarcia.wdm.OperatingSystem;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -21,11 +19,11 @@ import lombok.NoArgsConstructor;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.Assert;
-
 import stepDefinitions.RunCukesTest;
 
 import java.io.File;
@@ -51,6 +49,12 @@ public class DriverUtil {
     private static final Map<String, WebDriver> drivers = new HashMap<>();
 
     public static String testName;
+    public static final String REMOTE = "BrowserStack";
+    public static final String CHROME = "Chrome";
+    public static final String FIREFOX = "Firefox";
+    public static final String IE = "IE";
+    public static final String EDGE = "edge";
+    private static final HashMap<String, String> checkLogin = new HashMap<String, String>();
 
     /**
      * Invoke local mobile browser android.
@@ -354,7 +358,7 @@ public class DriverUtil {
     /**
      * Gets browser.
      *
-     * @param exeEnv the exe env
+     * @param exeEnv  the exe env
      * @return the browser
      */
     public static WebDriver getBrowser(String exeEnv) {
@@ -460,5 +464,124 @@ public class DriverUtil {
             e.printStackTrace();
             return "";
         }
+    }
+
+    public static WebDriver getBrowser(String exeEnv, String browserName) {
+        WebDriver browser = null;
+        try {
+            DesiredCapabilities caps;
+            String URL = null;
+
+            if (exeEnv.equalsIgnoreCase("Remote")) {
+
+                if (browserName.equalsIgnoreCase(CHROME)) {
+                    caps = DesiredCapabilities.chrome();
+                    caps.setCapability("os", "WINDOWS");
+                    if (GlobalUtil.getCommonSettings().getRemoteOS().toUpperCase().contains("WINDOWS")) {
+                        caps.setCapability("os_version", GlobalUtil.getCommonSettings().getRemoteOS().split("_")[1]);
+                    }
+                    if (GlobalUtil.getCommonSettings().getRemoteOS().toUpperCase().contains("MAC")) {
+
+                        caps.setCapability("os", "OS X");
+                        caps.setCapability("os_version", GlobalUtil.getCommonSettings().getRemoteOS().split("_")[1]);
+                    }
+                } else if (browserName.equalsIgnoreCase(IE)) {
+                    caps = DesiredCapabilities.internetExplorer();
+                    caps.setCapability("os", "WINDOWS");
+                    if (GlobalUtil.getCommonSettings().getRemoteOS().toUpperCase().contains("WINDOWS")) {
+                        caps.setCapability("os_version", GlobalUtil.getCommonSettings().getRemoteOS().split("_")[1]);
+                    }
+                } else if (browserName.equalsIgnoreCase(EDGE)) {
+                    caps = DesiredCapabilities.edge();
+                    caps.setCapability("os", "WINDOWS");
+                    caps.setCapability("version", "14.0");
+                    caps.setCapability("os_version", "10");
+                } else if (browserName.equalsIgnoreCase("Safari")) {
+                    caps = DesiredCapabilities.safari();
+                    if (GlobalUtil.getCommonSettings().getRemoteOS().toUpperCase().contains("WINDOWS")) {
+                        caps.setCapability("os", "OS X");
+                        caps.setCapability("os_version", "SIERRA");
+                    } else {
+                        caps.setCapability("os", "OS X");
+                        caps.setCapability("os_version", GlobalUtil.getCommonSettings().getRemoteOS().split("_")[1]);
+                    }
+                }
+
+                // firefox
+                else {
+
+                    caps = DesiredCapabilities.firefox();
+                    caps.setCapability("os", "WINDOWS");
+                    if (GlobalUtil.getCommonSettings().getRemoteOS().toUpperCase().contains("WINDOWS")) {
+                        caps.setCapability("os_version", GlobalUtil.getCommonSettings().getRemoteOS().split("_")[1]);
+                    }
+                    if (GlobalUtil.getCommonSettings().getRemoteOS().toUpperCase().contains("MAC")) {
+                        caps.setCapability("os", "OS X");
+                        caps.setCapability("os_version", GlobalUtil.getCommonSettings().getRemoteOS().split("_")[1]);
+                    }
+                }
+
+                if (GlobalUtil.getCommonSettings().getCloudProvider().equalsIgnoreCase("BrowserStack")) {
+                    caps.setCapability("browserstack.debug", "true");
+                    caps.setCapability("browserstack.geoLocation", "US");
+                    caps.setCapability("build", GlobalUtil.getCommonSettings().getBuildNumber());
+                    URL = "https://" + GlobalUtil.getCommonSettings().getHostName() + ":"
+                            + GlobalUtil.getCommonSettings().getKey() + "@hub-cloud.browserstack.com/wd/hub";
+                }
+                try {
+                    browser = new RemoteWebDriver(new URL(URL), caps);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                drivers.put(browserName, browser);
+
+            } else {
+
+                if (browserName.equalsIgnoreCase(CHROME)) {
+                    // Write code for chrome
+                    browser = drivers.get(browserName);
+                    if (browser == null) {
+                        WebDriverManager.chromedriver().setup();
+                        //running headless
+                        ChromeOptions options = new ChromeOptions();
+                        options.addArguments("--headed", "--window-size=1920,1080", "--disable-gpu", "--no-sandbox", "--remote-debugging-port=9222", "--disable-infobars", "--disable-dev-shm-usage", "--disable-browser-side-navigation", "--disable-features=VizDisplayCompositor");
+                        browser = new ChromeDriver(options);
+//                        options.addArguments("force-device-scale-factor=0.8");
+//                        options.addArguments("high-dpi-support=0.8");
+                        drivers.put("Chrome", browser);
+                        exeEnv = REMOTE;
+                    } // End if
+                } else if (browserName.equalsIgnoreCase(IE)) {
+                    // Write code for IE
+                    browser = drivers.get(browserName);
+                    if (browser == null) {
+                        File ieExecutable = new File(ConfigReader.getValue("IEDriverPath"));
+                        System.setProperty("webdriver.ie.driver", ieExecutable.getAbsolutePath());
+                        DesiredCapabilities capabilitiesIE = DesiredCapabilities.internetExplorer();
+                        capabilitiesIE.setCapability("ie.ensureCleanSession", true);
+                        capabilitiesIE.setCapability(InternetExplorerDriver.ENABLE_ELEMENT_CACHE_CLEANUP, true);
+                        browser = new InternetExplorerDriver(capabilitiesIE);
+                        drivers.put("IE", browser);
+                        checkLogin.put(browserName, "Y");
+                    }
+                } else if (browserName.equalsIgnoreCase("Firefox")) {
+                    // Getting Firefox Browser
+                    browser = drivers.get("Firefox");
+                    if (browser == null) {
+                        WebDriverManager.firefoxdriver().setup();
+                        browser = new FirefoxDriver();
+                        drivers.put("Firefox", browser);
+                        checkLogin.put(browserName, "Y");
+                    }
+                }
+            }
+            browser.manage().window().maximize();
+            LogUtil.infoLog(DriverUtil.class,
+                    GlobalUtil.getCommonSettings().getBrowser() + " : Browser Launched and Maximized.");
+        } catch (Exception e) {
+            LogUtil.errorLog(DriverUtil.class, "Browser not launched. Please check the configuration ", e);
+            e.printStackTrace();
+        }
+        return browser;
     }
 }

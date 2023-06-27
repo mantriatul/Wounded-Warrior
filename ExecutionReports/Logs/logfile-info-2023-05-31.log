@@ -1,0 +1,197 @@
+[INFO ] 2023-05-31 10:13:01.243 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-05-31 10:13:01.413 [main] RunCukesTest - CHROME
+[INFO ] 2023-05-31 10:13:01.414 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-31 10:13:01.415 [main] RunCukesTest -  Suite started at Wed May 31 10:13:01 IST 2023
+[INFO ] 2023-05-31 10:13:01.416 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-05-31 10:13:01.418 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-05-31 10:13:01.419 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-05-31 10:13:01.420 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-31 10:13:03.352 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-31 10:13:03.352 [main] Hooks - Test Started: Verify Term, Condition and Privacy Policy Links is Clickable on Choose Password page
+[INFO ] 2023-05-31 10:13:03.353 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-31 10:13:03.353 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-31 10:13:52.716 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-31 10:13:53.778 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-31 10:14:00.644 [main] KeywordUtil - Login
+[INFO ] 2023-05-31 10:14:00.926 [main] KeywordUtil - Forgot password is visible 
+[INFO ] 2023-05-31 10:14:01.123 [main] KeywordUtil - Click : By.xpath: //a[@title='Forgot password?']
+[INFO ] 2023-05-31 10:14:03.376 [main] KeywordUtil - Back button is visible 
+[INFO ] 2023-05-31 10:14:03.551 [main] KeywordUtil - Forgot password title is visible 
+[INFO ] 2023-05-31 10:14:03.722 [main] KeywordUtil - Email input is visible 
+[INFO ] 2023-05-31 10:14:03.887 [main] KeywordUtil - Reset Button is visible 
+[INFO ] 2023-05-31 10:14:03.891 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-05-31 10:14:04.695 [main] KeywordUtil - Click : By.xpath: //button[text()='Reset Password']
+[INFO ] 2023-05-31 10:14:04.943 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='success-message']
+[INFO ] 2023-05-31 10:14:08.919 [main] KeywordUtil - Navigate to: https://login.microsoftonline.com/
+[INFO ] 2023-05-31 10:14:10.553 [main] KeywordUtil - Sign in to your account
+[INFO ] 2023-05-31 10:14:20.555 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@type='email']
+[INFO ] 2023-05-31 10:14:21.032 [main] KeywordUtil - Click : By.xpath: //input[@id='idSIButton9']
+[INFO ] 2023-05-31 10:14:21.221 [main] KeywordUtil - Input Text: Vaishu1234$ - By.xpath: //input[@type='password']
+[INFO ] 2023-05-31 10:14:22.660 [main] KeywordUtil - Click : By.xpath: //input[@data-report-event='Signin_Submit']
+[INFO ] 2023-05-31 10:14:28.784 [main] KeywordUtil - Click : By.xpath: //input[@value='Yes']
+[INFO ] 2023-05-31 10:14:43.866 [main] KeywordUtil - Click : By.xpath: //img[@src='https://res-1.cdn.office.net/shellux/outlook_24x.59692ba8e1f344194426952916c16896.svg']
+[INFO ] 2023-05-31 10:15:02.679 [main] KeywordUtil - Click : By.xpath: (//span[@title='resourcecenter@woundedwarriorproject.org'])[1]
+[INFO ] 2023-05-31 10:15:11.670 [main] KeywordUtil - Get Element text: By.xpath: (//span[@style='font-size:12pt'])[1]
+[INFO ] 2023-05-31 10:15:11.796 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/_nc_external/identity/ui/login/ForgotPasswordInterstitial?r=00D740000008gDN00574000001LFMECjwKMwoPMDBENzQwMDAwMDA4Z0ROEg8wMkdmMzAwMDAwMENycWsaDzAwNTc0MDAwMDAxTEZNRRiBlvuAhzESEBCQ2G0qiPndvxC42pweZ4MaDPUFJQZVVMakJ-7BUiI5bO41d5Ljf-l4DHNh6DaXMqRL6CfGZEjj83kAgok66tuR8OVhKcyZ5Zt9X51dw_17_GzUskC8a20Z&display=page&fpot=bdb10975-1482-4b27-bc03-80a3334cd99f5f7c7df1-45b1-42ea-84b4-4b94fe957ead
+[INFO ] 2023-05-31 10:15:15.118 [main] KeywordUtil - Reset Password | WDX
+[INFO ] 2023-05-31 10:15:15.382 [main] KeywordUtil - Click : By.xpath: //input[@title='Reset Password']
+[INFO ] 2023-05-31 10:15:22.534 [main] KeywordUtil - Choose your password page is visible 
+[INFO ] 2023-05-31 10:15:22.681 [main] KeywordUtil - Click : By.xpath: //a[@title='Terms and Conditions']
+[INFO ] 2023-05-31 10:15:26.058 [main] KeywordUtil - Terms & conditions is visible 
+[INFO ] 2023-05-31 10:15:28.329 [main] KeywordUtil - Click : By.xpath: //a[@title='Privacy Policy']
+[INFO ] 2023-05-31 10:15:28.768 [main] KeywordUtil - Private policy is visible 
+[INFO ] 2023-05-31 10:15:28.773 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-05-31 10:15:32.792 [main] RunCukesTest -  suite finished at Wed May 31 10:15:32 IST 2023
+[INFO ] 2023-05-31 10:15:32.793 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-31 10:15:36.863 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-05-31 10:15:36.864 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-05-31 10:15:36.865 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-05-31 10:15:36.924 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @ForgotPassword_Tc_07.html
+[INFO ] 2023-05-31 10:17:23.522 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-05-31 10:17:23.668 [main] RunCukesTest - CHROME
+[INFO ] 2023-05-31 10:17:23.669 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-31 10:17:23.670 [main] RunCukesTest -  Suite started at Wed May 31 10:17:23 IST 2023
+[INFO ] 2023-05-31 10:17:23.670 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-05-31 10:17:23.673 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-05-31 10:17:23.673 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-05-31 10:17:23.674 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-31 10:17:25.261 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-31 10:17:25.262 [main] Hooks - Test Started: Verify password created successfully when password and retype password is correct and same.
+[INFO ] 2023-05-31 10:17:25.262 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-31 10:17:25.263 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-31 10:17:30.853 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-31 10:17:32.131 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-31 10:17:36.541 [main] KeywordUtil - Login
+[INFO ] 2023-05-31 10:17:36.729 [main] KeywordUtil - Forgot password is visible 
+[INFO ] 2023-05-31 10:17:36.892 [main] KeywordUtil - Click : By.xpath: //a[@title='Forgot password?']
+[INFO ] 2023-05-31 10:17:37.730 [main] KeywordUtil - Back button is visible 
+[INFO ] 2023-05-31 10:17:37.824 [main] KeywordUtil - Forgot password title is visible 
+[INFO ] 2023-05-31 10:17:37.923 [main] KeywordUtil - Email input is visible 
+[INFO ] 2023-05-31 10:17:38.026 [main] KeywordUtil - Reset Button is visible 
+[INFO ] 2023-05-31 10:17:38.029 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-05-31 10:17:38.485 [main] KeywordUtil - Click : By.xpath: //button[text()='Reset Password']
+[INFO ] 2023-05-31 10:17:38.642 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='success-message']
+[INFO ] 2023-05-31 10:17:40.437 [main] KeywordUtil - Navigate to: https://login.microsoftonline.com/
+[INFO ] 2023-05-31 10:17:42.330 [main] KeywordUtil - Sign in to your account
+[INFO ] 2023-05-31 10:17:52.332 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@type='email']
+[INFO ] 2023-05-31 10:17:52.735 [main] KeywordUtil - Click : By.xpath: //input[@id='idSIButton9']
+[INFO ] 2023-05-31 10:17:52.891 [main] KeywordUtil - Input Text: Vaishu1234$ - By.xpath: //input[@type='password']
+[INFO ] 2023-05-31 10:17:54.623 [main] KeywordUtil - Click : By.xpath: //input[@data-report-event='Signin_Submit']
+[INFO ] 2023-05-31 10:18:00.576 [main] KeywordUtil - Click : By.xpath: //input[@value='Yes']
+[INFO ] 2023-05-31 10:18:20.691 [main] KeywordUtil - Click : By.xpath: //img[@src='https://res-1.cdn.office.net/shellux/outlook_24x.59692ba8e1f344194426952916c16896.svg']
+[INFO ] 2023-05-31 10:18:43.019 [main] KeywordUtil - Click : By.xpath: (//span[@title='resourcecenter@woundedwarriorproject.org'])[1]
+[INFO ] 2023-05-31 10:18:51.813 [main] KeywordUtil - Get Element text: By.xpath: (//span[@style='font-size:12pt'])[1]
+[INFO ] 2023-05-31 10:18:52.024 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/_nc_external/identity/ui/login/ForgotPasswordInterstitial?r=00D740000008gDN00574000001LFMECjwKMwoPMDBENzQwMDAwMDA4Z0ROEg8wMkdmMzAwMDAwMENycWsaDzAwNTc0MDAwMDAxTEZNRRiajYiBhzESEMt89n_q3o8WjYXuK3BWe_saDGwNU2YSSMRJmzDu0CI5Q1DXhE5_FLrYf87mnVw8ApgKHhn5OjK51ecG_s0EaqpqEfrxnu6Tw9I1x1TElC1epcffHN5R98pz&display=page&fpot=46baa18b-a4df-4d40-8468-9bde376ad396c80c3bfc-6814-4ac6-baeb-1bfa77eb1671
+[INFO ] 2023-05-31 10:18:53.692 [main] KeywordUtil - Reset Password | WDX
+[INFO ] 2023-05-31 10:18:53.978 [main] KeywordUtil - Click : By.xpath: //input[@title='Reset Password']
+[INFO ] 2023-05-31 10:18:59.689 [main] KeywordUtil - Choose your password page is visible 
+[INFO ] 2023-05-31 10:18:59.690 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-05-31 10:18:59.986 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Retype your password']
+[INFO ] 2023-05-31 10:19:00.272 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='validation password-validation validation-visible']//div[1]
+[INFO ] 2023-05-31 10:19:00.377 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='validation password-validation validation-visible']//div[2]
+[INFO ] 2023-05-31 10:19:00.461 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='validation password-validation validation-visible']//div[3]
+[INFO ] 2023-05-31 10:19:00.541 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='validation repeat-password-validation validation-visible']//div[1]
+[INFO ] 2023-05-31 10:19:00.756 [main] KeywordUtil - Must contain at least 1 number is visible 
+[INFO ] 2023-05-31 10:19:00.922 [main] KeywordUtil - Must contain at least 8 characters is visible 
+[INFO ] 2023-05-31 10:19:01.074 [main] KeywordUtil - Must contain at least 1 special character is visible 
+[INFO ] 2023-05-31 10:19:01.216 [main] KeywordUtil - Passwords must match is visible 
+[INFO ] 2023-05-31 10:19:01.397 [main] KeywordUtil - Click : By.xpath: //button[text()='Create Password']
+[INFO ] 2023-05-31 10:19:03.027 [main] KeywordUtil - Password has been changed is visible 
+[INFO ] 2023-05-31 10:19:03.177 [main] KeywordUtil - Continue to Home Page is visible 
+[INFO ] 2023-05-31 10:19:03.351 [main] KeywordUtil - Veteran helpline number is visible 
+[INFO ] 2023-05-31 10:19:03.495 [main] KeywordUtil - Click : By.xpath: //button[text()='Continue to Home Page']
+[INFO ] 2023-05-31 10:19:26.878 [main] KeywordUtil - welcome text is visible 
+[INFO ] 2023-05-31 10:19:26.885 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-05-31 10:19:29.032 [main] RunCukesTest -  suite finished at Wed May 31 10:19:29 IST 2023
+[INFO ] 2023-05-31 10:19:29.034 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-31 10:19:30.278 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-05-31 10:19:30.278 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-05-31 10:19:30.280 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-05-31 10:19:30.542 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @ForgotPassword_Tc_080910.html
+[INFO ] 2023-05-31 10:20:07.640 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-05-31 10:20:07.785 [main] RunCukesTest - CHROME
+[INFO ] 2023-05-31 10:20:07.786 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-31 10:20:07.787 [main] RunCukesTest -  Suite started at Wed May 31 10:20:07 IST 2023
+[INFO ] 2023-05-31 10:20:07.787 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-05-31 10:20:07.790 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-05-31 10:20:07.791 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-05-31 10:20:07.791 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-31 10:20:09.372 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-31 10:20:09.373 [main] Hooks - Test Started: Verify Warriors able to login after the Forgot Password
+[INFO ] 2023-05-31 10:20:09.373 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-31 10:20:09.374 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-31 10:20:13.190 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-31 10:20:13.910 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-31 10:20:19.398 [main] KeywordUtil - Login
+[INFO ] 2023-05-31 10:20:19.410 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-05-31 10:20:20.380 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-05-31 10:20:21.164 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-05-31 10:20:28.829 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-05-31 10:20:28.835 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-05-31 10:20:30.441 [main] RunCukesTest -  suite finished at Wed May 31 10:20:30 IST 2023
+[INFO ] 2023-05-31 10:20:30.442 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-31 10:20:31.501 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-05-31 10:20:31.503 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-05-31 10:20:31.505 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-05-31 10:20:31.612 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @ForgotPassword_Tc_11.html
+[INFO ] 2023-05-31 10:48:04.463 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-05-31 10:48:04.610 [main] RunCukesTest - CHROME
+[INFO ] 2023-05-31 10:48:04.610 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-31 10:48:04.611 [main] RunCukesTest -  Suite started at Wed May 31 10:48:04 IST 2023
+[INFO ] 2023-05-31 10:48:04.612 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-05-31 10:48:04.614 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-05-31 10:48:04.615 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-05-31 10:48:04.615 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-31 10:48:06.372 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-05-31 10:48:06.373 [main] Hooks - Test Started: Verify Browse All Content on Page
+[INFO ] 2023-05-31 10:48:06.373 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-05-31 10:48:06.374 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-05-31 10:48:09.862 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-05-31 10:48:10.401 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-05-31 10:48:14.394 [main] KeywordUtil - Login
+[INFO ] 2023-05-31 10:48:14.404 [main] KeywordUtil - Input Text: vaishali.tomar@testingxperts.com - By.xpath: //input[@placeholder="Email/Username"]
+[INFO ] 2023-05-31 10:48:14.831 [main] KeywordUtil - Input Text: Testing123$ - By.xpath: //input[@placeholder="Password"]
+[INFO ] 2023-05-31 10:48:15.193 [main] KeywordUtil - Click : By.xpath: //button[text()='Log In']
+[INFO ] 2023-05-31 10:48:22.290 [main] KeywordUtil - Click : By.xpath: //div[@class='links-container']//a[@title="Browse All"]
+[INFO ] 2023-05-31 10:48:45.927 [main] KeywordUtil - Check Element present: By.xpath: //div[@class='banner-container']
+[INFO ] 2023-05-31 10:48:45.997 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='banner-title']
+[INFO ] 2023-05-31 10:48:46.273 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='banner-subtitle']
+[INFO ] 2023-05-31 10:48:46.425 [main] KeywordUtil - Check Element present: By.xpath: //input[@placeholder='Search by name...']
+[INFO ] 2023-05-31 10:48:46.468 [main] KeywordUtil - Check Element present: By.xpath: //div[contains(text(),'Featured')]
+[INFO ] 2023-05-31 10:48:46.518 [main] KeywordUtil - Check Element present: By.xpath: //div[@class='interest-header']
+[INFO ] 2023-05-31 10:48:46.561 [main] KeywordUtil - Check Element present: By.xpath: //button[text()='View All']
+[INFO ] 2023-05-31 10:48:46.607 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-05-31 10:48:50.134 [main] RunCukesTest -  suite finished at Wed May 31 10:48:50 IST 2023
+[INFO ] 2023-05-31 10:48:50.135 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-05-31 10:48:50.974 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-05-31 10:48:50.975 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-05-31 10:48:50.977 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-05-31 10:48:51.052 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @BrowseAll_tc_01, @Browser_All.html

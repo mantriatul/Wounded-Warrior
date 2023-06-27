@@ -1,0 +1,282 @@
+[INFO ] 2023-06-22 13:13:28.115 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-22 13:13:28.267 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-22 13:13:28.268 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-22 13:13:28.269 [main] RunCukesTest -  Suite started at Thu Jun 22 13:13:28 IST 2023
+[INFO ] 2023-06-22 13:13:28.269 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-22 13:13:28.271 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-22 13:13:28.279 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-22 13:13:28.279 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-22 13:13:30.348 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-22 13:13:30.348 [main] Hooks - Test Started: Verify Program Detail page content (Text, Share and Request info Button ) after Login of Warrior, FSM User
+[INFO ] 2023-06-22 13:13:30.349 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-22 13:13:30.349 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-22 13:14:18.939 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-22 13:14:19.599 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-22 13:14:31.180 [main] KeywordUtil - Login
+[INFO ] 2023-06-22 13:14:31.204 [main] KeywordUtil - Input Text: abhinav.srivastava@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-22 13:14:31.822 [main] KeywordUtil - Input Text: Testing@123 - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-22 13:14:32.527 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-22 13:14:48.858 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-22 13:14:55.052 [main] HTMLReportUtil - ExecutionReports\FailedScreenshots\ScreenShot_1687419893966.png
+[INFO ] 2023-06-22 13:15:02.166 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-22 13:15:02.166 [main] Hooks - Test Started: Verify Warrior, FSM User able to view Share and Back button on Program detail page
+[INFO ] 2023-06-22 13:15:02.167 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-22 13:15:02.167 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-22 13:15:05.567 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-22 13:15:05.913 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-22 13:15:12.889 [main] KeywordUtil - Login
+[INFO ] 2023-06-22 13:15:12.891 [main] KeywordUtil - Input Text: abhinav.srivastava@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-22 13:15:17.918 [main] KeywordUtil - Input Text: Testing@123 - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-22 13:17:00.122 [main] ExcelToCSVConverter - Generated CSV file is added to : D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior/src/test/resources/CsvFiles/ArtistGrowthUsers.csv
+[INFO ] 2023-06-22 13:17:00.271 [main] RunCukesTest - CHROME
+[INFO ] 2023-06-22 13:17:00.272 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-22 13:17:00.272 [main] RunCukesTest -  Suite started at Thu Jun 22 13:17:00 IST 2023
+[INFO ] 2023-06-22 13:17:00.273 [main] RunCukesTest - Suite Execution For Web application on environment : Local
+[INFO ] 2023-06-22 13:17:00.275 [main] RunCukesTest - Suite Execution For Android mobile application on version: 12.0
+[INFO ] 2023-06-22 13:17:00.276 [main] RunCukesTest - Suite Execution For Android mobile application on Device: Redmi Note 10 Pro
+[INFO ] 2023-06-22 13:17:00.276 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-22 13:17:02.494 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-22 13:17:02.495 [main] Hooks - Test Started: Verify Program Detail page content (Text, Share and Request info Button ) after Login of Warrior, FSM User
+[INFO ] 2023-06-22 13:17:02.495 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-22 13:17:02.496 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-22 13:17:05.896 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-22 13:17:06.356 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-22 13:17:10.330 [main] KeywordUtil - Login
+[INFO ] 2023-06-22 13:17:10.345 [main] KeywordUtil - Input Text: abhinav.srivastava@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-22 13:17:10.743 [main] KeywordUtil - Input Text: Testing@123 - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-22 13:17:11.064 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-22 13:17:18.762 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-22 13:17:24.206 [main] KeywordUtil - Click : By.xpath: //a[@title='All']
+[INFO ] 2023-06-22 13:17:24.545 [main] KeywordUtil - clicked on All filter is visible 
+[INFO ] 2023-06-22 13:17:24.646 [main] KeywordUtil - Program link is visible 
+[INFO ] 2023-06-22 13:17:29.989 [main] KeywordUtil - Click : By.xpath: (//c-wwp-card-service-offering//a[@class='title'])[1]
+[INFO ] 2023-06-22 13:17:37.088 [main] KeywordUtil - Program Page is visible 
+[INFO ] 2023-06-22 13:17:42.240 [main] KeywordUtil - Program page title is visible 
+[INFO ] 2023-06-22 13:17:45.515 [main] KeywordUtil - Back link is visible 
+[INFO ] 2023-06-22 13:17:48.835 [main] KeywordUtil - Share link is visible 
+[INFO ] 2023-06-22 13:17:48.842 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-22 13:17:50.182 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-22 13:17:50.183 [main] Hooks - Test Started: Verify Warrior, FSM User able to view Share and Back button on Program detail page
+[INFO ] 2023-06-22 13:17:50.184 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-22 13:17:50.185 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-22 13:17:53.038 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-22 13:17:53.712 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-22 13:18:00.143 [main] KeywordUtil - Login
+[INFO ] 2023-06-22 13:18:00.144 [main] KeywordUtil - Input Text: abhinav.srivastava@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-22 13:18:00.854 [main] KeywordUtil - Input Text: Testing@123 - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-22 13:18:01.485 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-22 13:18:08.417 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-22 13:18:13.639 [main] KeywordUtil - Click : By.xpath: //a[@title='All']
+[INFO ] 2023-06-22 13:18:13.996 [main] KeywordUtil - clicked on All filter is visible 
+[INFO ] 2023-06-22 13:18:14.094 [main] KeywordUtil - Program link is visible 
+[INFO ] 2023-06-22 13:18:19.428 [main] KeywordUtil - Click : By.xpath: (//c-wwp-card-service-offering//a[@class='title'])[1]
+[INFO ] 2023-06-22 13:18:23.684 [main] KeywordUtil - Program Page is visible 
+[INFO ] 2023-06-22 13:18:28.908 [main] KeywordUtil - Click : By.xpath: //button[@title='Share']
+[INFO ] 2023-06-22 13:18:31.288 [main] KeywordUtil - Click : By.xpath: //div[@class='action-copy-link-button']
+[INFO ] 2023-06-22 13:18:31.562 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='iziToast-texts']//div//div[2]
+[INFO ] 2023-06-22 13:18:32.363 [main] KeywordUtil - Copied
+Link copied to clipboard is visible 
+[INFO ] 2023-06-22 13:18:32.494 [main] KeywordUtil - Click : By.xpath: //button[@class='iziToast-close']
+[INFO ] 2023-06-22 13:18:37.891 [main] KeywordUtil - Click : By.xpath: //button[@title='Share']
+[INFO ] 2023-06-22 13:18:41.280 [main] KeywordUtil - search field is visible 
+[INFO ] 2023-06-22 13:18:41.466 [main] KeywordUtil - Click : By.xpath: //div[@title='Close']
+[INFO ] 2023-06-22 13:18:46.958 [main] KeywordUtil - Click : By.xpath: //span[text()='Back']
+[INFO ] 2023-06-22 13:18:49.574 [main] KeywordUtil - For You header link is visible 
+[INFO ] 2023-06-22 13:18:49.576 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-22 13:18:50.977 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-22 13:18:50.977 [main] Hooks - Test Started: Verify Warrior, FSM (Sender) User able to view the Shared Program link on his Message list
+[INFO ] 2023-06-22 13:18:50.978 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-22 13:18:50.980 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-22 13:18:53.231 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-22 13:18:53.692 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-22 13:18:59.011 [main] KeywordUtil - Login
+[INFO ] 2023-06-22 13:18:59.011 [main] KeywordUtil - Input Text: abhinav.srivastava@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-22 13:18:59.329 [main] KeywordUtil - Input Text: Testing@123 - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-22 13:18:59.825 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-22 13:19:08.683 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-22 13:19:13.995 [main] KeywordUtil - Click : By.xpath: //a[@title='All']
+[INFO ] 2023-06-22 13:19:14.722 [main] KeywordUtil - clicked on All filter is visible 
+[INFO ] 2023-06-22 13:19:14.842 [main] KeywordUtil - Program link is visible 
+[INFO ] 2023-06-22 13:19:20.105 [main] KeywordUtil - Click : By.xpath: (//c-wwp-card-service-offering//a[@class='title'])[1]
+[INFO ] 2023-06-22 13:19:24.464 [main] KeywordUtil - Program Page is visible 
+[INFO ] 2023-06-22 13:19:29.628 [main] KeywordUtil - Click : By.xpath: //button[@title='Share']
+[INFO ] 2023-06-22 13:19:31.889 [main] KeywordUtil - Click : By.xpath: (//div[@class='user'])[1]
+[INFO ] 2023-06-22 13:19:33.231 [main] KeywordUtil - Click : By.xpath: //button[@class='action action-yes']
+[INFO ] 2023-06-22 13:19:37.609 [main] KeywordUtil - Article sent to user is visible 
+[INFO ] 2023-06-22 13:19:37.673 [main] KeywordUtil - Image of program is visible 
+[INFO ] 2023-06-22 13:19:37.756 [main] KeywordUtil - Name of program is visible 
+[INFO ] 2023-06-22 13:19:37.831 [main] KeywordUtil - Date time of shared message is visible 
+[INFO ] 2023-06-22 13:19:43.948 [main] KeywordUtil - Input Text: test message - By.xpath: //textarea[@class='new-message-input']
+[INFO ] 2023-06-22 13:19:44.701 [main] KeywordUtil - Click : By.xpath: //button[@class='new-message-submit']
+[INFO ] 2023-06-22 13:19:44.975 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-22 13:19:46.599 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-22 13:19:46.600 [main] Hooks - Test Started: Verify after Share of Article with other Warrior, FSM User (Receiver) able to view the Shared Program link on his Message list
+[INFO ] 2023-06-22 13:19:46.601 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-22 13:19:46.601 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-22 13:19:49.328 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-22 13:19:49.668 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-22 13:19:54.285 [main] KeywordUtil - Login
+[INFO ] 2023-06-22 13:19:54.286 [main] KeywordUtil - Input Text: example.uat1@warrior.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-22 13:19:54.688 [main] KeywordUtil - Input Text: ExampleUat1! - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-22 13:19:55.129 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-22 13:20:03.160 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-22 13:20:08.386 [main] KeywordUtil - Click : By.xpath: //a[@title='All']
+[INFO ] 2023-06-22 13:20:08.924 [main] KeywordUtil - clicked on All filter is visible 
+[INFO ] 2023-06-22 13:20:09.039 [main] KeywordUtil - Program link is visible 
+[INFO ] 2023-06-22 13:20:14.525 [main] KeywordUtil - Click : By.xpath: (//c-wwp-card-service-offering//a[@class='title'])[1]
+[INFO ] 2023-06-22 13:20:19.035 [main] KeywordUtil - Program Page is visible 
+[INFO ] 2023-06-22 13:20:24.251 [main] KeywordUtil - Click : By.xpath: //button[@title='Share']
+[INFO ] 2023-06-22 13:20:26.636 [main] KeywordUtil - Click : By.xpath: //div[@class='user' and text()='Abhinav Srivastava']
+[INFO ] 2023-06-22 13:20:28.043 [main] KeywordUtil - Click : By.xpath: //button[@class='action action-yes']
+[INFO ] 2023-06-22 13:20:32.379 [main] KeywordUtil - Article sent to user is visible 
+[INFO ] 2023-06-22 13:20:42.804 [main] KeywordUtil - Click : By.xpath: //a[@class='user-avatar-icon']
+[INFO ] 2023-06-22 13:20:46.333 [main] KeywordUtil - Click : By.xpath: //span[text()='Logout']
+[INFO ] 2023-06-22 13:20:51.573 [main] KeywordUtil - Input Text: abhinav.srivastava@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-22 13:20:53.864 [main] KeywordUtil - Input Text: Testing@123 - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-22 13:20:54.614 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-22 13:21:02.754 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-22 13:21:06.128 [main] KeywordUtil - Click : By.xpath: (//a[@title='Messages'])[1]
+[INFO ] 2023-06-22 13:21:15.405 [main] KeywordUtil - Click : By.xpath: //a[@class='user' and text()='Example UATWarrior1']
+[INFO ] 2023-06-22 13:21:18.812 [main] KeywordUtil - Image of program is visible 
+[INFO ] 2023-06-22 13:21:18.855 [main] KeywordUtil - Name of program is visible 
+[INFO ] 2023-06-22 13:21:18.898 [main] KeywordUtil - Date time of shared message is visible 
+[INFO ] 2023-06-22 13:21:22.205 [main] KeywordUtil - Input Text: test message - By.xpath: //textarea[@class='new-message-input']
+[INFO ] 2023-06-22 13:21:22.840 [main] KeywordUtil - Click : By.xpath: //button[@class='new-message-submit']
+[INFO ] 2023-06-22 13:21:23.091 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-22 13:21:25.206 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-22 13:21:25.206 [main] Hooks - Test Started: Verify Cancel and Yes button functionality on Share Pop-up when confirmation message will appears
+[INFO ] 2023-06-22 13:21:25.207 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-22 13:21:25.207 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-22 13:21:27.854 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-22 13:21:28.265 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-22 13:21:33.422 [main] KeywordUtil - Login
+[INFO ] 2023-06-22 13:21:33.424 [main] KeywordUtil - Input Text: abhinav.srivastava@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-22 13:21:34.162 [main] KeywordUtil - Input Text: Testing@123 - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-22 13:21:34.833 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-22 13:21:42.620 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-22 13:21:47.835 [main] KeywordUtil - Click : By.xpath: //a[@title='All']
+[INFO ] 2023-06-22 13:21:48.172 [main] KeywordUtil - clicked on All filter is visible 
+[INFO ] 2023-06-22 13:21:48.262 [main] KeywordUtil - Program link is visible 
+[INFO ] 2023-06-22 13:21:53.522 [main] KeywordUtil - Click : By.xpath: (//c-wwp-card-service-offering//a[@class='title'])[1]
+[INFO ] 2023-06-22 13:21:57.801 [main] KeywordUtil - Program Page is visible 
+[INFO ] 2023-06-22 13:22:03.156 [main] KeywordUtil - Click : By.xpath: //button[@title='Share']
+[INFO ] 2023-06-22 13:22:05.501 [main] KeywordUtil - Click : By.xpath: (//div[@class='user'])[1]
+[INFO ] 2023-06-22 13:22:09.812 [main] KeywordUtil - Click : By.xpath: //button[@class='action action-no']
+[INFO ] 2023-06-22 13:22:10.154 [main] KeywordUtil - article get cancelled is visible 
+[INFO ] 2023-06-22 13:22:12.311 [main] KeywordUtil - Click : By.xpath: (//div[@class='user'])[1]
+[INFO ] 2023-06-22 13:22:13.696 [main] KeywordUtil - Click : By.xpath: //button[@class='action action-yes']
+[INFO ] 2023-06-22 13:22:18.152 [main] KeywordUtil - Article sent to user is visible 
+[INFO ] 2023-06-22 13:22:18.154 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-22 13:22:19.474 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-22 13:22:19.474 [main] Hooks - Test Started: Verify Message Counter (Receiver) functionality when a Program link Shared with other Warrior, FSM User
+[INFO ] 2023-06-22 13:22:19.475 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-22 13:22:19.475 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-22 13:22:22.157 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-22 13:22:22.573 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-22 13:22:27.447 [main] KeywordUtil - Login
+[INFO ] 2023-06-22 13:22:27.449 [main] KeywordUtil - Input Text: abhinav.srivastava@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-22 13:22:28.111 [main] KeywordUtil - Input Text: Testing@123 - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-22 13:22:29.015 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-22 13:22:37.492 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-22 13:22:42.862 [main] KeywordUtil - Click : By.xpath: (//a[@title='Messages'])[1]
+[INFO ] 2023-06-22 13:22:56.956 [main] KeywordUtil - Click : By.xpath: //a[@class='user-avatar-icon']
+[INFO ] 2023-06-22 13:23:00.530 [main] KeywordUtil - Click : By.xpath: //span[text()='Logout']
+[INFO ] 2023-06-22 13:23:05.781 [main] KeywordUtil - Input Text: example.uat1@warrior.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-22 13:23:07.404 [main] KeywordUtil - Input Text: ExampleUat1! - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-22 13:23:08.200 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-22 13:23:16.008 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-22 13:23:21.237 [main] KeywordUtil - Click : By.xpath: //a[@title='All']
+[INFO ] 2023-06-22 13:23:21.673 [main] KeywordUtil - clicked on All filter is visible 
+[INFO ] 2023-06-22 13:23:21.774 [main] KeywordUtil - Program link is visible 
+[INFO ] 2023-06-22 13:23:27.005 [main] KeywordUtil - Click : By.xpath: (//c-wwp-card-service-offering//a[@class='title'])[1]
+[INFO ] 2023-06-22 13:23:31.130 [main] KeywordUtil - Program Page is visible 
+[INFO ] 2023-06-22 13:23:36.384 [main] KeywordUtil - Click : By.xpath: //button[@title='Share']
+[INFO ] 2023-06-22 13:23:38.782 [main] KeywordUtil - Click : By.xpath: //div[@class='user' and text()='Abhinav Srivastava']
+[INFO ] 2023-06-22 13:23:40.178 [main] KeywordUtil - Click : By.xpath: //button[@class='action action-yes']
+[INFO ] 2023-06-22 13:23:44.496 [main] KeywordUtil - Article sent to user is visible 
+[INFO ] 2023-06-22 13:23:54.882 [main] KeywordUtil - Click : By.xpath: //a[@class='user-avatar-icon']
+[INFO ] 2023-06-22 13:23:58.396 [main] KeywordUtil - Click : By.xpath: //span[text()='Logout']
+[INFO ] 2023-06-22 13:24:03.611 [main] KeywordUtil - Input Text: abhinav.srivastava@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-22 13:24:05.811 [main] KeywordUtil - Input Text: Testing@123 - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-22 13:24:06.495 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-22 13:24:12.615 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-22 13:24:14.720 [main] KeywordUtil - Message counter increased is visible 
+[INFO ] 2023-06-22 13:24:14.721 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-22 13:24:16.231 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-22 13:24:16.232 [main] Hooks - Test Started: Verify Warrior or FSM User able to view You May Be Interested Section that is visible at the Bottom of the Program Detail Page
+[INFO ] 2023-06-22 13:24:16.233 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-22 13:24:16.233 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-22 13:24:19.075 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-22 13:24:19.475 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-22 13:24:22.409 [main] KeywordUtil - Login
+[INFO ] 2023-06-22 13:24:22.410 [main] KeywordUtil - Input Text: abhinav.srivastava@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-22 13:24:22.779 [main] KeywordUtil - Input Text: Testing@123 - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-22 13:24:23.168 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-22 13:24:31.537 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-22 13:24:36.782 [main] KeywordUtil - Click : By.xpath: //a[@title='All']
+[INFO ] 2023-06-22 13:24:37.165 [main] KeywordUtil - clicked on All filter is visible 
+[INFO ] 2023-06-22 13:24:37.276 [main] KeywordUtil - Program link is visible 
+[INFO ] 2023-06-22 13:24:42.543 [main] KeywordUtil - Click : By.xpath: (//c-wwp-card-service-offering//a[@class='title'])[1]
+[INFO ] 2023-06-22 13:24:46.902 [main] KeywordUtil - Program Page is visible 
+[INFO ] 2023-06-22 13:24:54.145 [main] KeywordUtil - Right arrow button is visible 
+[INFO ] 2023-06-22 13:25:04.522 [main] KeywordUtil - Article Image is visible 
+[INFO ] 2023-06-22 13:25:04.604 [main] KeywordUtil - Article title is visible 
+[INFO ] 2023-06-22 13:25:04.684 [main] KeywordUtil - Article Description is visible 
+[INFO ] 2023-06-22 13:25:06.926 [main] KeywordUtil - Click : By.xpath: (//div[@class='wwp-theme ct-card wrapper'])[1]//a[@class='title']
+[INFO ] 2023-06-22 13:25:17.239 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-22 13:25:18.611 [main] Hooks - 
++----------------------------------------------------------------------------------------------------------------------------+
+[INFO ] 2023-06-22 13:25:18.612 [main] Hooks - Test Started: Verify Warrior, FSM User able to share Program link with People
+[INFO ] 2023-06-22 13:25:18.612 [main] Hooks - Test is executed in Environment: Local
+[INFO ] 2023-06-22 13:25:18.613 [main] Hooks - Test is started with browser: CHROME
+[INFO ] 2023-06-22 13:25:21.420 [main] DriverUtil - CHROME : Browser Launched and Maximized.
+[INFO ] 2023-06-22 13:25:21.901 [main] KeywordUtil - Navigate to: https://wwp--wdxuat.sandbox.my.site.com/WDX/s/login/?language=en_US
+[INFO ] 2023-06-22 13:25:27.419 [main] KeywordUtil - Login
+[INFO ] 2023-06-22 13:25:27.420 [main] KeywordUtil - Input Text: abhinav.srivastava@testingxperts.com - By.xpath: //input[@placeholder='Email/Username']
+[INFO ] 2023-06-22 13:25:27.861 [main] KeywordUtil - Input Text: Testing@123 - By.xpath: //input[@placeholder='Password']
+[INFO ] 2023-06-22 13:25:28.289 [main] KeywordUtil - Click : By.xpath: //button[@title='Log In']
+[INFO ] 2023-06-22 13:25:37.908 [main] KeywordUtil - Wounded Warrior Project page is visible 
+[INFO ] 2023-06-22 13:25:43.203 [main] KeywordUtil - Click : By.xpath: //a[@title='All']
+[INFO ] 2023-06-22 13:25:43.539 [main] KeywordUtil - clicked on All filter is visible 
+[INFO ] 2023-06-22 13:25:43.628 [main] KeywordUtil - Program link is visible 
+[INFO ] 2023-06-22 13:25:48.924 [main] KeywordUtil - Click : By.xpath: (//c-wwp-card-service-offering//a[@class='title'])[1]
+[INFO ] 2023-06-22 13:25:53.217 [main] KeywordUtil - Program Page is visible 
+[INFO ] 2023-06-22 13:25:58.528 [main] KeywordUtil - Click : By.xpath: //button[@title='Share']
+[INFO ] 2023-06-22 13:26:00.994 [main] KeywordUtil - Click : By.xpath: //div[@class='action-copy-link-button']
+[INFO ] 2023-06-22 13:26:01.347 [main] KeywordUtil - Get Element text: By.xpath: //div[@class='iziToast-texts']//div//div[2]
+[INFO ] 2023-06-22 13:26:01.833 [main] KeywordUtil - Copied
+Link copied to clipboard is visible 
+[INFO ] 2023-06-22 13:26:01.980 [main] KeywordUtil - Click : By.xpath: //button[@class='iziToast-close']
+[INFO ] 2023-06-22 13:26:07.507 [main] KeywordUtil - Click : By.xpath: (//a[@title='People'])[1]
+[INFO ] 2023-06-22 13:26:24.869 [main] KeywordUtil - Click : By.xpath: (//c-wwp-people-my-connections//div[@class='person-info'])[1]
+[INFO ] 2023-06-22 13:26:27.149 [main] KeywordUtil - Send a message link  is visible 
+[INFO ] 2023-06-22 13:26:30.739 [main] KeywordUtil - Click : By.xpath: //a[@class='send-message']
+[INFO ] 2023-06-22 13:26:35.178 [main] KeywordUtil - message input field is visible 
+[INFO ] 2023-06-22 13:26:35.181 [main] KeywordUtil - Find Element: By.xpath: //textarea[@class='new-message-input']
+[INFO ] 2023-06-22 13:26:40.869 [main] KeywordUtil - Click : By.xpath: //button[@class='new-message-submit']
+[INFO ] 2023-06-22 13:26:45.157 [main] Hooks - Test has ended closing browser: CHROME
+[INFO ] 2023-06-22 13:26:46.755 [main] RunCukesTest -  suite finished at Thu Jun 22 13:26:46 IST 2023
+[INFO ] 2023-06-22 13:26:46.755 [main] RunCukesTest - 
+
++===========================================================================================================+
+[INFO ] 2023-06-22 13:26:48.031 [main] KeywordUtil - Test process has ended
+[INFO ] 2023-06-22 13:26:48.032 [main] KeywordUtil - Email Flag Set To: N
+[INFO ] 2023-06-22 13:26:48.034 [main] KeywordUtil - cucumber path isD:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\target/cucumber-html-report.html
+[INFO ] 2023-06-22 13:26:48.134 [main] KeywordUtil - Extent Report File path is  D:\Wounded_warrior_project_2023\Wounded_warrior_project_2023\Wounded-Warrior\ExecutionReports\HTMLReportsBackup\Web, @Program_TC_12, @program.html

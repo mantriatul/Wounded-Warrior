@@ -1,0 +1,36 @@
+[ERROR] 2023-06-09 12:16:12.814 [main] MobileKeywords - Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Search states'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TXHYD-LAP-50', ip: '192.168.29.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.91, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 950c26dc2b34fcf97a134cc1e5eee194
+[ERROR] 2023-06-09 12:16:12.829 [main] MobileKeywords - -----------------------------------------------------------------------
+[ERROR] 2023-06-09 12:16:12.830 [main] MobileKeywords - Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Search states'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TXHYD-LAP-50', ip: '192.168.29.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.91, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 950c26dc2b34fcf97a134cc1e5eee194
+[ERROR] 2023-06-09 12:16:12.831 [main] MobileKeywords - -----------------------------------------------------------------------
+[ERROR] 2023-06-09 12:33:42.873 [main] MobileKeywords - Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='about-info-wrapper'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TXHYD-LAP-50', ip: '192.168.29.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.91, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1982e7b27c9e0622632531f0fd960114
+[ERROR] 2023-06-09 12:33:42.875 [main] MobileKeywords - -----------------------------------------------------------------------
+[ERROR] 2023-06-09 12:33:42.876 [main] MobileKeywords - Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='about-info-wrapper'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TXHYD-LAP-50', ip: '192.168.29.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.91, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1982e7b27c9e0622632531f0fd960114
+[ERROR] 2023-06-09 12:33:42.877 [main] MobileKeywords - -----------------------------------------------------------------------
+[ERROR] 2023-06-09 15:54:10.134 [main] MobileKeywords - Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Search messages'] (tried for 30 second(s) with 500 milliseconds interval)
+[ERROR] 2023-06-09 15:54:10.135 [main] MobileKeywords - -----------------------------------------------------------------------
+[ERROR] 2023-06-09 15:54:10.135 [main] MobileKeywords - Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Search messages'] (tried for 30 second(s) with 500 milliseconds interval)
+[ERROR] 2023-06-09 15:54:10.135 [main] MobileKeywords - -----------------------------------------------------------------------
+[ERROR] 2023-06-09 16:11:13.913 [main] MobileKeywords - Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Email/Username'] (tried for 30 second(s) with 500 milliseconds interval)
+[ERROR] 2023-06-09 16:11:13.914 [main] MobileKeywords - -----------------------------------------------------------------------
+[ERROR] 2023-06-09 16:11:13.915 [main] MobileKeywords - Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Email/Username'] (tried for 30 second(s) with 500 milliseconds interval)
+[ERROR] 2023-06-09 16:11:13.916 [main] MobileKeywords - -----------------------------------------------------------------------

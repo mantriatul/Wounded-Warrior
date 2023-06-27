@@ -1,0 +1,4 @@
+[ERROR] 2023-06-12 10:24:14.114 [main] MobileKeywords - Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='user-name'] (tried for 30 second(s) with 500 milliseconds interval)
+[ERROR] 2023-06-12 10:24:14.132 [main] MobileKeywords - -----------------------------------------------------------------------
+[ERROR] 2023-06-12 10:24:14.133 [main] MobileKeywords - Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='user-name'] (tried for 30 second(s) with 500 milliseconds interval)
+[ERROR] 2023-06-12 10:24:14.134 [main] MobileKeywords - -----------------------------------------------------------------------
