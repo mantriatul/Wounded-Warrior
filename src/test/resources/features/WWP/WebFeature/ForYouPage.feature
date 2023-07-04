@@ -265,6 +265,18 @@ Feature: Verify Default view on For you Page
       | TestData  |
       | Testdata2 |
 
+  @ForYou_Tc26 @foryou
+  Scenario Outline: Verify LoggedIn Users Warrior, FSM  default redirection on the For You Page
+    Given Read the testdata "<TestData>" from excel file
+    When User navigates to the url
+    And  User login to the Wounded Warrior
+    Then user can view the default view
+    And Verify Privacy policy & term of use fields in for you
+
+    Examples:
+      | TestData  |
+      | Testdata2 |
+
 
 
 

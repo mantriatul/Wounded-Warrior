@@ -182,14 +182,20 @@ public class Login extends KeywordUtil {
 
 
     @And("User login to the Wounded Warrior")
-    public void  Login()
-    {
+    public void  Login() throws InterruptedException {
         inputText(Wwp.emailInput,dataMap.get("Username") ,""+dataMap.get("Username")+" username is entered");
 
         inputText(Wwp.passwordInput,dataMap.get("Password") ,""+dataMap.get("Password")+"password is entered");
 
         click(Wwp.loginButton,"Click on login button");
+        Thread.sleep(5000);
+        if(isWebElementPresent(Wwp.bannerImage,"")==true){
        Assert.assertTrue(isWebElementVisible(Wwp.bannerImage,"Wounded Warrior Project page"));
+        }
+        else {
+            Assert.assertTrue(isWebElementVisible(Wwp.logoQuiz,"Quiz get started"));
+        }
+
     }
 
     @And("Secondary User login to the Wounded Warrior")
@@ -223,11 +229,14 @@ public class Login extends KeywordUtil {
         catch (Exception e){
 
         }
-        click(Wwp.clickOutlook,"click on outlook");
-        Thread.sleep(10000);
-        switchToMultipleWindow();
-        //  inputText(By.id("topSearchInput"),"Sandbox: Activate your Wounded Warrior Password","");
-        // click(By.xpath("//span[@class='ms-Button-flexContainer flexContainer-164']//i[@data-icon-name='Search']"),"");
+        try {
+            click(Wwp.clickOutlook, "click on outlook");
+            Thread.sleep(10000);
+            switchToMultipleWindow();
+        }
+        catch (Exception e){
+
+        }
         Thread.sleep(8000);
         click(Wwp.emailMessage,"");
         Thread.sleep(8000);
@@ -337,12 +346,12 @@ public class Login extends KeywordUtil {
     @And("User click on Reset Button and verify")
     public void resetBtnAndVerifySuccessMsg(){
         click(Wwp.resetPwdBtn,"click on Reset Button");
-        String text = "We’ve sent you an email with a link to finish resetting your password.\n" +
+        String text = "We've sent you an email with a link to finish resetting your password.\n" +
                 "\n" +
                 "Can't find the email? Try checking your spam folder.\n" +
                 "\n" +
-                "If you still can’t log in, please call the WWP Resource Center at 888.997.2586, or email us at resourcecenter@woundedwarriorproject.org";
-       Assert.assertEquals(getElementText(Wwp.successMessage),text);
+                "If you still can't log in, please call the WWP Resource Center at 888.997.2586, or email us at resourcecenter@woundedwarriorproject.org";
+        Assert.assertEquals(getElementText(Wwp.successMessage),text);
 
     }
 

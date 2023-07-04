@@ -94,6 +94,8 @@ public class AccountManagement extends KeywordUtil {
         List<WebElement> category_name = getListElements(Wwp.forYouMultipleCategoryNames,"fetching the Number of categories");
         category_count  = category_name.size();
         System.out.println(category_count);
+        RunCukesTest.logger.log(LogStatus.PASS, HTMLReportUtil.passStringGreenColor(String.format("Total No. of categories:"+category_name.size())));
+
     }
 
     @Then("Verify category count got updated after changing my interest page")

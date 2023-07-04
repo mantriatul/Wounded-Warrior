@@ -336,4 +336,17 @@ public class Foryou extends KeywordUtil {
         RunCukesTest.logger.log(LogStatus.PASS, HTMLReportUtil.passStringGreenColor("homepage content is visible"));
     }
 
+    @And("Verify Privacy policy & term of use fields in for you")
+    public void verifyPolicyField() throws InterruptedException {
+        scrollingToElementofAPage(Wwp.termsOfUserForYou,"");
+        click(Wwp.termsOfUserForYou,"Terms of Use");
+        switchToMultipleWindow();
+        isWebElementsVisible(Wwp.termsAndConditionsPage,"Terms & conditions");
+        Thread.sleep(2000);
+        switchToWindowIndex(0);
+        click(Wwp.privacyPolicyForyou,"Private policy");
+        isWebElementsVisible(Wwp.privacyPolicyPage,"Private policy");
+
+    }
+
 }

@@ -541,6 +541,16 @@ public class KeywordUtil extends GlobalUtil {
         }
         return true;
     }
+
+
+    public static boolean switchToWindowIndex(int index) {
+
+        ArrayList<String> tabs2 = new ArrayList<String>(GlobalUtil.getDriver().getWindowHandles());
+        GlobalUtil.getDriver().switchTo().window(tabs2.get(index));
+        System.out.println(tabs2.size());
+        return true;
+
+    }
     // ....
 
     /**

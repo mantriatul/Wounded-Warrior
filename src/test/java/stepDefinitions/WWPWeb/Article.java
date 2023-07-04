@@ -118,11 +118,13 @@ public class Article extends KeywordUtil {
             click(Wwp.forYouReadMoreLinkOnFirstStoryArtcile, "click on read more");
             Thread.sleep(3000);
             Assert.assertTrue(isWebElementsVisible(Wwp.backLink, "back link "));
+            Article_url = getCurrentUrl();
 
         } catch (Exception e) {
             System.out.println("No Story Article present on for you page");
         }
     }
+
 
     @Then("verify content of card article inside related item")
     public void verify_first_card_content() {

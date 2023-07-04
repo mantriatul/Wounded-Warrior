@@ -2,7 +2,7 @@
 
 Feature: Verify Forgot Password Functionality
 
-  @ForgotPassword_Tc_01
+  @ForgotPassword_Tc_01 @forgot
   Scenario Outline: Verify Warrior User able to view the Forgot Password link on Login Page.
     Given Read the testdata "<TestData>" from excel file
     When User navigates to the url
@@ -14,7 +14,7 @@ Feature: Verify Forgot Password Functionality
       |Testdata1|
 
 
-  @ForgotPassword_Tc_02
+  @ForgotPassword_Tc_02 @forgot
   Scenario Outline: Verify Forgot Password validation with Warrior User on blank of Email/ Username field
     Given Read the testdata "<TestData>" from excel file
     When User navigates to the url
@@ -26,7 +26,7 @@ Feature: Verify Forgot Password Functionality
       |TestData|
       |Testdata1|
 
-  @ForgotPassword_Tc_03
+  @ForgotPassword_Tc_03 @forgot
   Scenario Outline:  Verify Warrior User can opt forgot Password help using Email.
     Given Read the testdata "<TestData>" from excel file
     When User navigates to the url
@@ -40,7 +40,7 @@ Feature: Verify Forgot Password Functionality
       |Testdata1|
 
 
-  @ForgotPassword_Tc_04_06
+  @ForgotPassword_Tc_04_06 @forgot
   Scenario Outline: Verify reset Password link & Choose Password fields for forgot password
     Given Read the testdata "<TestData>" from excel file
     When User navigates to the url
@@ -54,7 +54,7 @@ Feature: Verify Forgot Password Functionality
       |TestData|
       |Testdata1|
 
-  @ForgotPassword_Tc_07
+  @ForgotPassword_Tc_07 @forgot
   Scenario Outline: Verify Term, Condition and Privacy Policy Links is Clickable on Choose Password page
     Given Read the testdata "<TestData>" from excel file
     When User navigates to the url
@@ -67,7 +67,7 @@ Feature: Verify Forgot Password Functionality
       |TestData|
       |Testdata1|
 
-  @ForgotPassword_Tc_08091011
+  @ForgotPassword_Tc_08091011 @forgot1
   Scenario Outline: Verify password created successfully when password and retype password is correct and same.
     Given Read the testdata "<TestData>" from excel file
     When User navigates to the url
@@ -83,10 +83,3 @@ Feature: Verify Forgot Password Functionality
     Examples:
       |TestData|
       |Testdata1|
-
-
-
-
-
-
-

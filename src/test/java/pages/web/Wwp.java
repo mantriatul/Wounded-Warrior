@@ -295,8 +295,9 @@ public class Wwp {
 
     public static By emailSubmit =  By.xpath("//input[@data-report-event='Signin_Submit']");
 
-    public static By clickOutlook=  By.xpath("//img[@src='https://res-1.cdn.office.net/shellux/outlook_24x.59692ba8e1f344194426952916c16896.svg']");
+    //public static By clickOutlook=  By.xpath("//img[@src='https://res-1.cdn.office.net/shellux/outlook_24x.59692ba8e1f344194426952916c16896.svg']");
 
+    public static By clickOutlook=  By.xpath("//button[@id='Mail']/span");
 
 
     public static By emailMessage =  By.xpath("(//span[@title='resourcecenter@woundedwarriorproject.org'])[1]");
@@ -398,7 +399,13 @@ public class Wwp {
 
 
       //For you
-      public static  By welcomeTextOnForYou = By.xpath("//div[contains(text(),'Welcome')]");
+
+
+    public static  By privacyPolicyForyou= By.xpath("//a[@title='Privacy Policy']");
+
+    public static  By termsOfUserForYou = By.xpath("//a[@title='Terms of Use']");
+
+    public static  By welcomeTextOnForYou = By.xpath("//div[contains(text(),'Welcome')]");
 
     public static By homepageHeaderLink(String title){
         return By.xpath("(//a[@title='"+title+"'])[1]");
@@ -1100,4 +1107,78 @@ public class Wwp {
 
     public static By  DescriptionlinkLatestSharedServiceInbox = By.xpath("(//div[@class='message'])[1]//a[@class='title']");
 
+
+    //Quiz locator
+
+    public static By welcomeTitleQuiz = By.xpath("//div[@class='welcome-title']");
+
+    public static By welcomeTextQuiz = By.xpath("(//div[@class='welcome-text'])[1]");
+
+    public static By questionTextQuiz = By.xpath("(//div[@class='welcome-text'])[2]");
+
+    public static By logoQuiz = By.xpath("//img[@class='content-logo']");
+
+    public static By getStartedButton = By.xpath("//button[@class='get-started']");
+
+    public static By skipQuestionQuiz = By.xpath("//a[@class='skip-questions']");
+    public static By supportCallQuiz = By.xpath("//div[@class='support-call-text']");
+    public static By veteranCrisisQuiz = By.xpath("//div[@class='crisis-line']//a");
+
+    public  static By PrivacySettingQuiz =  By.xpath("//div[text()='Privacy Settings']");
+
+    public  static By successTitleQuiz =  By.xpath("//div[@class='success-title']");
+
+    public  static By homePageButtonQuiz =  By.xpath("//button[@class='success-homepage-button']");
+
+    public  static By continueButtonQuiz =  By.xpath("//button[@class='continue']");
+
+
+  public  static By skipThisQuestionQuiz =  By.xpath("//a[@class='screen-skip-link']");
+
+    public  static By screenTitleQuiz =  By.xpath("//div[@class='screen-title']");
+
+    public  static  By backBtnQuiz = By.xpath("//a[@class='question-back']/span");
+
+    public  static  By pageQuiz = By.xpath("//div[@class='page']");
+
+    public  static  By selectAllApply = By.xpath("//div[@class='select-option-container']/button");
+
+    public  static  By selectInterest(String interest) {
+       return By.xpath("//div[@class='select-option-container']/button[text()='"+interest+"']");
+    }
+
+    public  static  By interestNotSelected(String interest) {
+        return By.xpath("//div[@class='select-option-container']/button[@class='select-option' and @data-value='"+interest+"']");
+    }
+
+    public  static  By selectprivacy(String privacy) {
+        return By.xpath("//div[@class='select-option-container']/button[@class='select-option' and text()='"+privacy+"']");
+    }
+
+    public  static  By learnMore = By.xpath("//a[text()='Learn More']");
+    public  static  By closeLearnMore = By.xpath("//button[@class='action-close']");
+
+    public  static  By privacyDesc = By.xpath("//div[@class='screen-description privDescr']");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
