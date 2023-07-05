@@ -124,6 +124,22 @@ public class MobileKeywords {
         }
     }
 
+    public static boolean textAssertionOnIos(By locator, String data) {
+        try {
+            WebDriverWait wait = new WebDriverWait(GlobalUtil.getIosDriver(), 70);
+            MobileElement element = (MobileElement) wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+            Assert.assertEquals(element.getText(), data);
+            KeywordUtil.lastAction = data + " is verified";
+            LogUtil.infoLog(KeywordUtil.class, KeywordUtil.lastAction);
+            RunCukesTest.logger.log(LogStatus.PASS, HTMLReportUtil.passStringGreenColor(KeywordUtil.lastAction));
+            return true;
+        } catch (Throwable t) {
+            KeywordUtil.lastAction = data + " is not verified";
+            LogUtil.infoLog(KeywordUtil.class, KeywordUtil.lastAction);
+            RunCukesTest.logger.log(LogStatus.FAIL, HTMLReportUtil.failStringRedColor(KeywordUtil.lastAction));
+            return false;
+        }
+    }
     public static boolean textAssertionContains(By locator, String data) {
         try {
             WebDriverWait wait = new WebDriverWait(GlobalUtil.getMDriver(), 50);
@@ -286,6 +302,23 @@ public class MobileKeywords {
         }
     }
 
+    public static boolean tapsIos(By locator, String elements) {
+        WebDriverWait wait = new WebDriverWait(GlobalUtil.getIosDriver(), 20);
+        MobileElement elm = (MobileElement) wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+        if (elm == null) {
+            KeywordUtil.lastAction = "Unable to tap on " + elements;
+            RunCukesTest.logger.log(LogStatus.FAIL, HTMLReportUtil.failStringRedColor(KeywordUtil.lastAction));
+            LogUtil.infoLog(KeywordUtil.class, KeywordUtil.lastAction);
+            return false;
+        } else {
+            elm.click();
+            KeywordUtil.lastAction = "Tapped on " + elements;
+            RunCukesTest.logger.log(LogStatus.PASS, HTMLReportUtil.passStringGreenColor(KeywordUtil.lastAction));
+            LogUtil.infoLog(KeywordUtil.class, KeywordUtil.lastAction);
+            return true;
+        }
+    }
+
     public static String getAmount(By locator) {
         WebDriverWait wait = new WebDriverWait(GlobalUtil.getMDriver(), Constants.EXPLICITLY_TIMEOUT_IN_SECOND);
         MobileElement elm = (MobileElement) wait.until(ExpectedConditions.presenceOfElementLocated(locator));
@@ -369,6 +402,23 @@ public class MobileKeywords {
         }
     }
 
+    public static boolean isIosMobileElementVisible(By locator, String logStep) {
+        try {
+            WebDriverWait wait = new WebDriverWait(GlobalUtil.getIosDriver(), 70);
+            MobileElement elm = (MobileElement) wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+            Assert.assertTrue(elm.isDisplayed());
+            KeywordUtil.lastAction = logStep + " is visible";
+            LogUtil.infoLog(KeywordUtil.class, KeywordUtil.lastAction);
+            RunCukesTest.logger.log(LogStatus.PASS, HTMLReportUtil.passStringGreenColor(KeywordUtil.lastAction));
+            return true;
+        } catch (Throwable t) {
+            KeywordUtil.lastAction = logStep + " not visible";
+            LogUtil.infoLog(KeywordUtil.class, KeywordUtil.lastAction);
+            RunCukesTest.logger.log(LogStatus.FAIL, HTMLReportUtil.failStringRedColor(KeywordUtil.lastAction));
+            return false;
+        }
+    }
+
     public static boolean isMobileElementNotVisible(By locator, String logStep) {
         try {
             MobileElement elm = (MobileElement) GlobalUtil.getMDriver().findElement(locator);
@@ -420,6 +470,22 @@ public class MobileKeywords {
     public static boolean isMobileElementsVisible(By locator, String logstep) {
         try {
             List<MobileElement> Elements = (List<MobileElement>) GlobalUtil.getMDriver().findElements(locator);
+            for (MobileElement Element : Elements) {
+                Assert.assertTrue(Element.isDisplayed());
+            }
+            LogUtil.infoLog(thisClass, logstep + " are visible");
+            RunCukesTest.logger.log(LogStatus.PASS, HTMLReportUtil.passStringGreenColor(logstep + " are visible"));
+            return true;
+        } catch (Throwable t) {
+            LogUtil.infoLog(thisClass, logstep + " not visible");
+            RunCukesTest.logger.log(LogStatus.FAIL, HTMLReportUtil.failStringRedColor(logstep + " not visible"));
+            return false;
+        }
+    }
+
+    public static boolean isIosMobileElementsVisible(By locator, String logstep) {
+        try {
+            List<MobileElement> Elements = (List<MobileElement>) GlobalUtil.getIosDriver().findElements(locator);
             for (MobileElement Element : Elements) {
                 Assert.assertTrue(Element.isDisplayed());
             }
@@ -720,6 +786,14 @@ public class MobileKeywords {
             RunCukesTest.logger.log(LogStatus.PASS, HTMLReportUtil.passStringGreenColor(KeywordUtil.lastAction));
             return true;
         }
+    }
+
+    public static boolean clickIos(By locator, String logStep) {
+        WebDriverWait wait = new WebDriverWait(GlobalUtil.getIosDriver(), 70);
+        WebElement elm = wait.until(ExpectedConditions.elementToBeClickable(locator));
+        elm.click();
+        RunCukesTest.logger.log(LogStatus.PASS, HTMLReportUtil.passStringGreenColor(KeywordUtil.lastAction));
+        return true;
     }
 
     public static void backButtonOnDevice() {

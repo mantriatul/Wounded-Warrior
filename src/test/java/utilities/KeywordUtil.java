@@ -306,6 +306,14 @@ public class KeywordUtil extends GlobalUtil {
         }
     }
 
+    public static WebElement waitForVisibleIosMobile(By locator) {
+        try {
+            WebDriverWait wait = new WebDriverWait(getIosDriver(), DEFAULT_WAIT_SECONDS);
+            return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        } catch (Exception e) {
+            return null;
+        }
+    }
     /**
      * Wait for in visibile boolean.
      *
@@ -1097,6 +1105,19 @@ public class KeywordUtil extends GlobalUtil {
         }
     }
 
+    public static boolean inputTextIos(By locator, String data, String logStep) {
+        KeywordUtil.lastAction = "Input Text: " + data + " - " + locator.toString();
+        LogUtil.infoLog(KeywordUtil.class, KeywordUtil.lastAction);
+        WebElement elm = waitForVisibleIosMobile(locator);
+        if (elm == null) {
+            return false;
+        } else {
+            elm.clear();
+            elm.sendKeys(data);
+            RunCukesTest.logger.log(LogStatus.PASS, HTMLReportUtil.passStringGreenColor(logStep));
+            return true;
+        }
+    }
     /**
      * Input text mobile boolean.
      *

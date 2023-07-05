@@ -86,6 +86,28 @@ public class DriverUtil {
         RunCukesTest.logger.log(LogStatus.INFO, HTMLReportUtil.infoStringBlueColor("Execution done By The Device: " + deviceDetails));
     }
 
+    public static void browserStackIOSApp(String deviceDetails) {
+
+        String USERNAME = "browserstack_YrqJX9";
+        String ACCESS_KEY = "xaBLqqzQUDQ1WizrorDi";
+
+        String deviceName = deviceDetails.split("_")[0];
+        String osVersion = deviceDetails.split("_")[1];
+
+        try{
+            DesiredCapabilities caps = new DesiredCapabilities();
+            caps.setCapability("browserstack.user", USERNAME);
+            caps.setCapability("browserstack.key", ACCESS_KEY);
+            caps.setCapability("device", deviceName);
+            caps.setCapability("os_version", osVersion);
+            caps.setCapability(MobileCapabilityType.APP, "bs://13b7ea864a066f4f8759e3f88b3394b1a5132868");
+
+            URL url = new URL("http://hub.browserstack.com/wd/hub");
+            GlobalUtil.setIosDriver(new IOSDriver(url, caps));
+        } catch (MalformedURLException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
     /**
      * Invoke sauce labs for android app.
